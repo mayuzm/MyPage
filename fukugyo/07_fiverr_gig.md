@@ -2,7 +2,7 @@
 
 前のGigは注文ゼロのため、新しいGigとして作り直す（古いGigは一時停止にする）。
 
-## Gig title（69文字）
+## Gig title（70文字）
 I will create a detailed Japan itinerary for your family or group trip
 
 ## Category
@@ -11,15 +11,15 @@ Lifestyle > Travel Planning（画面で最も近い旅行系カテゴリを選�
 ## Search tags（5つ）
 japan itinerary / group travel / family trip japan / japan travel planner / japan trip
 
-## Description（1,119文字・上限1,200）
+## Description（約1,140文字・上限1,200）
 Planning Japan for a group is hard. One person wants temples, another wants ramen, someone hates early mornings, and Grandma can't walk all day. And you, the organizer, end up doing all the research.
 
-I'm a Japanese planner living near Tokyo, and I plan every trip down to the train times. I'll turn your whole group's wishes into one clear, step-by-step itinerary, so everyone can just enjoy Japan.
+I'm a Japanese planner living near Tokyo, and I plan every trip with real travel times for every step. I'll turn your whole group's wishes into one clear, step-by-step itinerary, so everyone can just enjoy Japan.
 
 WHAT MAKES THIS DIFFERENT
 - A 3-minute survey for every traveler. You just share one link in your group chat. I plan around everyone's interests, pace and walking limits, not only yours.
 - No guesswork on the day. Every step shows how to get there, how long it takes, and the departure times that matter.
-- Ready to share: a PDF, an editable Google Doc, a Google Maps list, a rainy-day backup and a cost estimate per person.
+- Ready to share: a PDF, an editable Google Doc, a Google Maps list, a rainy-day backup and (Standard and up) a cost estimate per person.
 
 PERFECT FOR
 First-time visitors, families with kids or older parents, and friend groups with different tastes.
@@ -35,7 +35,7 @@ Not sure if your trip fits? Message me first. I usually reply within 24 hours.
 | Name | One Perfect Day | Short Trip | Two-City Journey |
 | Description | 1 day, one area, with group survey | Up to 3 days, with group survey | Up to 5 days, up to 2 cities, with group survey |
 | Price | $20 | $45 | $85 |
-| Delivery | 5 days | 7 days | 10 days |
+| Delivery | 7 days | 10 days | 14 days |
 | Revisions | 1 | 1 | 2 |
 | Group survey for every traveler | ✓ | ✓ | ✓ |
 | Step-by-step itinerary | ✓ | ✓ | ✓ |
@@ -72,13 +72,14 @@ Ideally at least 3 weeks before your trip. If it's sooner, message me first.
 7. Your group's pace: packed days, or slow and relaxed?
 
 ## Gig gallery（画像）
-- 05_thumbnails/fiverr_main.png（メイン）
-- 05_thumbnails/fiverr_sample.png（見本の行程表・英語）
-- 05_thumbnails/fiverr_how.png（流れ：Survey → Plan → Enjoy）
+- 05_thumbnails/fv_main.png（メイン）
+- 05_thumbnails/fv_sample.png（見本の行程表・英語）
+- 05_thumbnails/fv_how.png（流れ：Share → Answer → Yui builds → Enjoy）
 
 ## プロフィール（Fiverr用の自己紹介）
-Hi, I'm Yui, a Japanese planner based near Tokyo who loves designing trips that work for everyone. By day I manage web projects, turning many people's requests into one clear plan. I bring the same approach to travel: every trip I plan, from Yakushima to Hokkaido, and for friends' group trips I didn't even join, is mapped down to the train times. I've lived and worked in Canada, so I know how it feels to explore a new country, and I'd love to help your group enjoy Japan without the stress.
+Hi, I'm Yui, a Japanese planner based near Tokyo who loves designing trips that work for everyone. By day I manage web projects, turning many people's requests into one clear plan. I bring the same approach to travel: every trip I plan, from Yakushima to Hokkaido, and even friends' group trips I didn't join, comes with real travel times for every step. I've lived and worked in Canada, so I know how it feels to explore a new country, and I'd love to help your group enjoy Japan without the stress.
 
 ## 注意
 - Googleフォームへのリンクは、Fiverrの取引メッセージの中で送る。フォームでは連絡先（メール・SNS）を集めない（Fiverrは外部での連絡先交換を禁止しているため）
 - 返信は昼休みと夜にスマホのアプリで必ず行う
+- 同時に受ける注文は1件まで（Fiverrの「注文の上限」を1にし、ココナラと同時に受けない）

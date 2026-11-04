@@ -11,15 +11,18 @@
   .board{position:relative;overflow:hidden;margin:20px}
   .cc{width:1220px;height:1240px}
   .fv{width:1280px;height:769px}
-  /* safe area for coconala: avoid top/bottom ~120px, bottom-right badge */
-  .safe{position:absolute;left:70px;right:70px;top:130px;bottom:130px}
+  .safe{position:absolute;left:70px;right:70px;top:170px;bottom:150px}
   .bg-main{background:linear-gradient(160deg,#0f6b6f 0%,#0a4f52 100%)}
   .bg-cream{background:var(--cream)}
   .pill{display:inline-block;border-radius:999px;font-weight:900}
-  .shot{position:absolute;border-radius:14px;box-shadow:0 24px 60px rgba(0,0,0,.28);overflow:hidden;background:#fff}
+  .shot{position:absolute;border-radius:14px;box-shadow:0 24px 60px rgba(0,0,0,.25);overflow:hidden;background:#fff}
   .shot img{display:block;width:100%}
   .check{display:flex;align-items:center;gap:16px;font-weight:900}
-  .check i{flex:none;width:44px;height:44px;border-radius:50%;background:var(--coral);color:#fff;display:grid;place-items:center;font-style:normal;font-size:26px}
+  .check i{flex:none;width:46px;height:46px;border-radius:50%;background:var(--coral);color:#fff;display:grid;place-items:center;font-style:normal;font-size:26px}
+  .step{display:flex;gap:28px;align-items:center;background:#fff;border-radius:28px;padding:20px 34px;box-shadow:0 6px 20px rgba(0,0,0,.06)}
+  .num{flex:none;width:96px;height:96px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:58px;font-weight:900}
+  .st-t{font-size:50px;font-weight:900}
+  .st-s{font-size:32px;color:var(--soft);margin-top:6px}
   .wave{position:absolute;left:0;right:0;bottom:0;height:120px;opacity:.12}
 </style>
 </head>
@@ -29,63 +32,65 @@
 <div class="board cc bg-main" id="cc_main">
   <svg class="wave" viewBox="0 0 1220 120" preserveAspectRatio="none"><path d="M0 60 Q 150 0 305 60 T 610 60 T 915 60 T 1220 60 V120 H0Z" fill="#fff"/></svg>
   <div class="safe" style="color:#fff">
-    <div class="pill" style="background:#fff;color:var(--teal);font-size:34px;padding:10px 30px">グループ旅行の幹事さんへ</div>
-    <div style="font-family:'Zen Maru Gothic';font-weight:900;font-size:96px;line-height:1.18;margin-top:34px;letter-spacing:.01em">
-      全員の希望を、<br><span style="color:#ffd9a8">迷わない1枚</span>の<br>行程表に。
+    <div class="pill" style="background:#fff;color:var(--teal);font-size:36px;padding:10px 32px">グループ旅行の幹事さんへ</div>
+    <div style="font-family:'Zen Maru Gothic';font-weight:900;font-size:100px;line-height:1.16;margin-top:30px">
+      全員の希望を、<br><span style="color:#ffd9a8">迷わない</span><br>行程表に。
     </div>
-    <div style="margin-top:40px;display:flex;flex-direction:column;gap:22px;font-size:40px">
-      <div class="check"><i>✓</i>LINEにURLを貼るだけ</div>
-      <div class="check"><i>✓</i>言いにくい本音も匿名で集める</div>
+    <div style="margin-top:36px;display:flex;flex-direction:column;gap:20px;font-size:42px">
+      <div class="check"><i>✓</i>幹事さんはLINEにURLを貼るだけ</div>
+      <div class="check"><i>✓</i>言いにくい本音も、名前を出さずに集計</div>
       <div class="check"><i>✓</i>分単位の行程・費用・雨の日案</div>
     </div>
   </div>
-  <div class="shot" style="width:330px;right:58px;top:470px;transform:rotate(4deg)"><img src="../04_sample_itinerary/sample_ja_p1.png"></div>
-  <div style="position:absolute;left:70px;bottom:140px;background:var(--coral);color:#fff;border-radius:20px;padding:14px 28px;font-weight:900;font-size:34px">先着3件 スタート価格 2,500円</div>
+  <div style="position:absolute;right:60px;top:250px;width:360px;transform:rotate(4deg);background:#fff;border-radius:22px;padding:22px 24px;box-shadow:0 24px 60px rgba(0,0,0,.28);color:var(--ink)">
+    <div style="font-weight:900;color:var(--teal);font-size:22px;white-space:nowrap">見本：みんなの希望の反映</div>
+    <div style="font-size:24px;line-height:1.5;margin-top:10px">
+      <div><b>Aさん</b>：景色をゆっくり<br><span style="color:var(--teal)">✓ 展望台で散策</span></div>
+      <div style="margin-top:8px"><b>Bさん</b>：迫力ある景色<br><span style="color:var(--teal)">✓ 渦の見頃に合わせる</span></div>
+      <div style="margin-top:8px"><b>全体（匿名）</b>：歩くのは控えめ2名<br><span style="color:var(--teal)">✓ 移動は車中心に</span></div>
+    </div>
+    <div style="margin-top:14px;background:#fbe7e2;color:#8f2a17;border-radius:10px;padding:6px 12px;font-weight:900;font-size:22px">⏰ 16:05 乗船締切</div>
+  </div>
+  <div style="position:absolute;left:70px;bottom:160px;background:var(--coral);color:#fff;border-radius:20px;padding:14px 28px;font-weight:900;font-size:36px">先着3件 スタート価格 2,500円</div>
 </div>
 
 <!-- ============ COCONALA SUB 1: HOW IT WORKS ============ -->
 <div class="board cc bg-cream" id="cc_flow">
   <div class="safe">
-    <div style="color:var(--teal);font-weight:900;font-size:30px;letter-spacing:.2em">HOW IT WORKS</div>
-    <div style="font-family:'Zen Maru Gothic';font-weight:900;font-size:68px;margin:6px 0 40px">幹事さんの手間は、これだけ</div>
-    <div style="display:flex;flex-direction:column;gap:28px">
-      <div style="display:flex;gap:28px;align-items:center;background:#fff;border-radius:28px;padding:30px 36px;box-shadow:0 6px 20px rgba(0,0,0,.06)">
-        <div style="flex:none;width:110px;height:110px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:56px;font-weight:900">1</div>
-        <div><div style="font-size:44px;font-weight:900">届いたURLをLINEに貼る</div><div style="font-size:30px;color:var(--soft);margin-top:6px">案内文もセットでお送りします</div></div>
-      </div>
-      <div style="display:flex;gap:28px;align-items:center;background:#fff;border-radius:28px;padding:30px 36px;box-shadow:0 6px 20px rgba(0,0,0,.06)">
-        <div style="flex:none;width:110px;height:110px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:56px;font-weight:900">2</div>
-        <div><div style="font-size:44px;font-weight:900">メンバーが3分で回答</div><div style="font-size:30px;color:var(--soft);margin-top:6px">予算や苦手なことは名前を出さずにまとめます</div></div>
-      </div>
-      <div style="display:flex;gap:28px;align-items:center;background:#fff;border-radius:28px;padding:30px 36px;box-shadow:0 6px 20px rgba(0,0,0,.06)">
-        <div style="flex:none;width:110px;height:110px;border-radius:50%;background:var(--coral);color:#fff;display:grid;place-items:center;font-size:56px;font-weight:900">3</div>
-        <div><div style="font-size:44px;font-weight:900">行程表が届く</div><div style="font-size:30px;color:var(--soft);margin-top:6px">PDF＋編集できるファイル。グループにそのまま共有</div></div>
-      </div>
+    <div style="color:var(--teal);font-weight:900;font-size:32px;letter-spacing:.2em">HOW IT WORKS</div>
+    <div style="font-family:'Zen Maru Gothic';font-weight:900;font-size:72px;margin:6px 0 26px">幹事さんの手間は、これだけ</div>
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <div class="step"><div class="num">1</div><div><div class="st-t">10分の質問に答える</div><div class="st-s">日程・人数・決まっていることなど</div></div></div>
+      <div class="step"><div class="num">2</div><div><div class="st-t">届いたURLをLINEに貼る</div><div class="st-s">案内文と催促文もセットでお送りします</div></div></div>
+      <div class="step"><div class="num">3</div><div><div class="st-t">メンバーが3分で回答</div><div class="st-s">予算や苦手なことは名前を出さずに集計</div></div></div>
+      <div class="step"><div class="num" style="background:var(--coral)">4</div><div><div class="st-t">行程表が届く</div><div class="st-s">PDF＋編集できるファイルで共有</div></div></div>
     </div>
   </div>
 </div>
 
-<!-- ============ COCONALA SUB 2: SAMPLE ============ -->
+<!-- ============ COCONALA SUB 2: SAMPLE (zoomed) ============ -->
 <div class="board cc" id="cc_sample" style="background:var(--teal-soft)">
   <div class="safe">
-    <div style="color:var(--teal);font-weight:900;font-size:30px;letter-spacing:.2em">SAMPLE</div>
-    <div style="font-family:'Zen Maru Gothic';font-weight:900;font-size:64px;margin:6px 0 0">こんな行程表が届きます</div>
+    <div style="color:var(--teal);font-weight:900;font-size:32px;letter-spacing:.2em">SAMPLE</div>
+    <div style="font-family:'Zen Maru Gothic';font-weight:900;font-size:66px;margin:6px 0 26px">全員の希望を、こう反映します</div>
+    <div class="shot" style="position:relative;width:100%"><img src="../04_sample_itinerary/ja_crop_table.png"></div>
+    <div style="display:flex;gap:20px;margin-top:26px;align-items:center">
+      <div style="background:#fbe7e2;color:#8f2a17;border-radius:18px;padding:16px 24px;font-weight:900;font-size:34px">⏰ 遅れられない時刻は赤で</div>
+      <div style="font-size:30px;font-weight:700;color:var(--teal-d)">見本：鳴門の渦潮 日帰り旅（6名）</div>
+    </div>
   </div>
-  <div class="shot" style="width:470px;left:90px;top:330px;transform:rotate(-3deg)"><img src="../04_sample_itinerary/sample_ja_p1.png"></div>
-  <div class="shot" style="width:470px;left:640px;top:310px;transform:rotate(3deg)"><img src="../04_sample_itinerary/sample_ja_p2.png"></div>
-  <div style="position:absolute;left:90px;bottom:150px;font-size:30px;font-weight:700;color:var(--teal-d)">「みんなの希望の反映表」と「遅れられない時刻」つき</div>
 </div>
 
 <!-- ============ COCONALA SUB 3: DELIVERABLES ============ -->
 <div class="board cc bg-cream" id="cc_items">
   <div class="safe">
-    <div style="color:var(--teal);font-weight:900;font-size:30px;letter-spacing:.2em">WHAT YOU GET</div>
-    <div style="font-family:'Zen Maru Gothic';font-weight:900;font-size:68px;margin:6px 0 40px">お届けするもの</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:26px">
-      <div style="background:#fff;border-radius:28px;padding:34px"><div style="font-size:64px">📝</div><div style="font-size:40px;font-weight:900;margin-top:8px">希望アンケート</div><div style="font-size:28px;color:var(--soft);margin-top:6px">3分で答えられる。<br>集計は匿名でまとめます</div></div>
-      <div style="background:#fff;border-radius:28px;padding:34px"><div style="font-size:64px">🗓️</div><div style="font-size:40px;font-weight:900;margin-top:8px">分単位の行程表</div><div style="font-size:28px;color:var(--soft);margin-top:6px">移動・所要時間・<br>遅れられない時刻つき</div></div>
-      <div style="background:#fff;border-radius:28px;padding:34px"><div style="font-size:64px">💴</div><div style="font-size:40px;font-weight:900;margin-top:8px">費用の目安</div><div style="font-size:28px;color:var(--soft);margin-top:6px">1人あたりの金額で、<br>割り勘の参考に</div></div>
-      <div style="background:#fff;border-radius:28px;padding:34px"><div style="font-size:64px">☔</div><div style="font-size:40px;font-weight:900;margin-top:8px">雨の日案・マップ</div><div style="font-size:28px;color:var(--soft);margin-top:6px">代わりの案と、<br>Googleマップのリスト</div></div>
+    <div style="color:var(--teal);font-weight:900;font-size:32px;letter-spacing:.2em">WHAT YOU GET</div>
+    <div style="font-family:'Zen Maru Gothic';font-weight:900;font-size:74px;margin:6px 0 36px">お届けするもの</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px">
+      <div style="background:#fff;border-radius:30px;padding:40px 38px"><div style="font-size:84px">📝</div><div style="font-size:50px;font-weight:900;margin-top:10px">希望アンケート</div><div style="font-size:32px;color:var(--soft);margin-top:8px">3分で答えられる。<br>本音は名前を出さずに集計</div></div>
+      <div style="background:#fff;border-radius:30px;padding:40px 38px"><div style="font-size:84px">🗓️</div><div style="font-size:50px;font-weight:900;margin-top:10px">分単位の行程表</div><div style="font-size:32px;color:var(--soft);margin-top:8px">移動・所要時間・<br>遅れられない時刻つき</div></div>
+      <div style="background:#fff;border-radius:30px;padding:40px 38px"><div style="font-size:84px">💴</div><div style="font-size:50px;font-weight:900;margin-top:10px">費用の目安</div><div style="font-size:32px;color:var(--soft);margin-top:8px">1人あたりの金額で、<br>割り勘の参考に</div></div>
+      <div style="background:#fff;border-radius:30px;padding:40px 38px"><div style="font-size:84px">☔</div><div style="font-size:50px;font-weight:900;margin-top:10px">雨の日案・マップ</div><div style="font-size:32px;color:var(--soft);margin-top:8px">代わりの案と、<br>Googleマップのリスト</div></div>
     </div>
   </div>
 </div>
@@ -97,7 +102,7 @@
     <div style="font-weight:900;font-size:68px;line-height:1.08;margin-top:26px">Your whole group,<br><span style="color:#ffd9a8">one stress-free</span><br>Japan plan</div>
     <div style="margin-top:30px;display:flex;flex-direction:column;gap:14px;font-size:28px;font-weight:800">
       <div class="check"><i style="width:36px;height:36px;font-size:20px">✓</i>A 3-minute survey for every traveler</div>
-      <div class="check"><i style="width:36px;height:36px;font-size:20px">✓</i>Step-by-step, minute-by-minute itinerary</div>
+      <div class="check"><i style="width:36px;height:36px;font-size:20px">✓</i>Step-by-step itinerary with real travel times</div>
       <div class="check"><i style="width:36px;height:36px;font-size:20px">✓</i>Planned by a Japanese local</div>
     </div>
   </div>
@@ -106,26 +111,24 @@
 
 <!-- ============ FIVERR SAMPLE ============ -->
 <div class="board fv" id="fv_sample" style="background:var(--teal-soft);font-family:'Nunito',sans-serif">
-  <div style="position:absolute;left:64px;top:60px;width:420px">
+  <div style="position:absolute;left:60px;top:50px;right:60px">
     <div style="color:var(--teal);font-weight:900;font-size:22px;letter-spacing:.2em">SAMPLE</div>
-    <div style="font-weight:900;font-size:52px;line-height:1.1;margin-top:8px">What you'll receive</div>
-    <ul style="font-size:24px;font-weight:700;line-height:1.5;padding-left:26px;margin-top:22px;color:var(--teal-d)">
-      <li>How everyone's wishes shaped the plan</li><li>Don't-miss times in red</li><li>Cost per person &amp; rainy-day backup</li><li>Google Maps list</li>
-    </ul>
+    <div style="font-weight:900;font-size:48px;line-height:1.1;margin-top:6px">How everyone's wishes shape your plan</div>
   </div>
-  <div class="shot" style="width:330px;left:520px;top:60px;transform:rotate(-3deg)"><img src="../04_sample_itinerary/sample_en_p1.png"></div>
-  <div class="shot" style="width:330px;left:880px;top:80px;transform:rotate(3deg)"><img src="../04_sample_itinerary/sample_en_p2.png"></div>
+  <div class="shot" style="width:840px;left:60px;top:160px"><img src="../04_sample_itinerary/en_crop_table.png"></div>
+  <div style="position:absolute;right:60px;top:200px;width:290px;display:flex;flex-direction:column;gap:18px"><div style="background:#fbe7e2;color:#8f2a17;border-radius:16px;padding:16px 20px;font-weight:900;font-size:26px">⏰ Don't-miss times in red</div><div style="background:#fff;border-radius:16px;padding:16px 20px;font-weight:800;font-size:24px;color:var(--teal-d)">🙈 Budgets &amp; dislikes stay anonymous</div><div style="background:#fff;border-radius:16px;padding:16px 20px;font-weight:800;font-size:24px;color:var(--teal-d)">🗺️ Google Maps list included</div></div>
 </div>
 
 <!-- ============ FIVERR HOW ============ -->
 <div class="board fv bg-cream" id="fv_how" style="font-family:'Nunito',sans-serif">
-  <div style="position:absolute;left:64px;right:64px;top:70px">
+  <div style="position:absolute;left:60px;right:60px;top:60px">
     <div style="color:var(--teal);font-weight:900;font-size:22px;letter-spacing:.2em">HOW IT WORKS</div>
-    <div style="font-weight:900;font-size:56px;margin-top:6px">Three easy steps</div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:44px">
-      <div style="background:#fff;border-radius:26px;padding:34px"><div style="width:76px;height:76px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:40px;font-weight:900">1</div><div style="font-size:34px;font-weight:900;margin-top:18px">Share one link</div><div style="font-size:22px;color:var(--soft);margin-top:8px">Post the survey in your group chat</div></div>
-      <div style="background:#fff;border-radius:26px;padding:34px"><div style="width:76px;height:76px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:40px;font-weight:900">2</div><div style="font-size:34px;font-weight:900;margin-top:18px">Everyone answers</div><div style="font-size:22px;color:var(--soft);margin-top:8px">3 minutes each: interests, pace, walking limits</div></div>
-      <div style="background:#fff;border-radius:26px;padding:34px"><div style="width:76px;height:76px;border-radius:50%;background:var(--coral);color:#fff;display:grid;place-items:center;font-size:40px;font-weight:900">3</div><div style="font-size:34px;font-weight:900;margin-top:18px">Enjoy Japan</div><div style="font-size:22px;color:var(--soft);margin-top:8px">Get a plan your whole group can follow</div></div>
+    <div style="font-weight:900;font-size:56px;margin-top:6px">Four easy steps</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:40px">
+      <div style="background:#fff;border-radius:26px;padding:30px;height:400px"><div style="width:76px;height:76px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:40px;font-weight:900">1</div><div style="font-size:32px;font-weight:900;margin-top:20px">Share one link</div><div style="font-size:23px;color:var(--soft);margin-top:10px">Post the survey in your group chat</div></div>
+      <div style="background:#fff;border-radius:26px;padding:30px;height:400px"><div style="width:76px;height:76px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:40px;font-weight:900">2</div><div style="font-size:32px;font-weight:900;margin-top:20px">Everyone answers</div><div style="font-size:23px;color:var(--soft);margin-top:10px">3 minutes each: interests, pace, walking limits</div></div>
+      <div style="background:#fff;border-radius:26px;padding:30px;height:400px"><div style="width:76px;height:76px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-items:center;font-size:40px;font-weight:900">3</div><div style="font-size:32px;font-weight:900;margin-top:20px">I build your plan</div><div style="font-size:23px;color:var(--soft);margin-top:10px">Balancing everyone's wishes, with real travel times</div></div>
+      <div style="background:#fff;border-radius:26px;padding:30px;height:400px"><div style="width:76px;height:76px;border-radius:50%;background:var(--coral);color:#fff;display:grid;place-items:center;font-size:40px;font-weight:900">4</div><div style="font-size:32px;font-weight:900;margin-top:20px">Enjoy Japan</div><div style="font-size:23px;color:var(--soft);margin-top:10px">A plan your whole group can follow</div></div>
     </div>
   </div>
 </div>
