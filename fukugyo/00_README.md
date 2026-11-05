@@ -7,7 +7,7 @@
 |---|---|---|
 | 1 | `01_profile.md` | ココナラのプロフィール（キャッチフレーズ＋自己紹介） |
 | 2 | `02_coconala_listing.md` | ココナラの出品一式（タイトル、本文、価格、オプション、よくある質問） |
-| 3 | `05_thumbnails/cc_main.png` ほか3枚 | ココナラの出品画像（1220×1240）：メイン、流れ、見本、お届けするもの |
+| 3 | `05_thumbnails/cc_main.png` → `cc_sample.png` → `cc_flow.png` → `cc_items.png` | ココナラの出品画像（1220×1240）。この順番で登録。元データは `coconala_v5.html` |
 | 4 | `04_sample_itinerary/sample_ja.pdf` | 見本の行程表（日本語・3ページ）。PNG版もあり |
 | 5 | `03_hearing_sheet.md` | 幹事さん用の質問と、メンバー用アンケート（Googleフォームの設問） |
 | 6 | `06_message_templates.md` | 問い合わせ〜納品〜お礼までのメッセージ9種 |

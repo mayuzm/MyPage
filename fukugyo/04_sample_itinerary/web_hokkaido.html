@@ -49,11 +49,11 @@
   ul.tl li{display:grid;grid-template-columns:58px 1fr;gap:10px;padding:9px 0;border-bottom:1px dashed var(--line)}
   ul.tl li:last-child{border-bottom:none}
   .t{font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
-  li.must .t{color:var(--red)}
+  li.must .t{color:#0b2a4a;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
   .opt{display:inline-block;font-size:11px;font-weight:700;color:var(--soft);border:1px solid var(--line);border-radius:4px;padding:0 5px;margin-left:4px}
   .mv{display:block;font-size:13px;color:var(--soft)}
   .note{margin-top:5px;padding:6px 9px;border-radius:7px;font-size:13.5px;background:var(--sand);border-left:3px solid var(--soft)}
-  .warn{margin-top:5px;padding:6px 9px;border-radius:7px;font-size:13.5px;font-weight:700;background:var(--red-bg);color:var(--red);border-left:3px solid var(--red)}
+  .warn{margin-top:5px;padding:6px 9px;border-radius:7px;font-size:13.5px;font-weight:700;background:#e3ecf5;color:#0b2a4a;border-left:3px solid #0b2a4a}
   .lodge{margin-top:12px;padding:10px 12px;background:var(--sand);border-left:4px solid var(--navy);border-radius:8px;font-size:14px;font-weight:700}
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
   @media(max-width:640px){.grid2{grid-template-columns:1fr}}
@@ -62,7 +62,7 @@
   td:last-child{text-align:right;white-space:nowrap}
   tr.total td{font-weight:700;border-top:2px solid var(--ink)}
   .res td:last-child{font-weight:700}
-  .ok{color:var(--green)} .todo{color:var(--red)}
+  .ok{color:var(--green)} .todo{color:#0b2a4a;font-weight:700}
   .pack label{display:flex;gap:8px;align-items:flex-start;padding:4px 0;font-size:14.5px;cursor:pointer}
   .pack input{width:17px;height:17px;margin-top:3px;accent-color:var(--navy)}
   .pack label.chk span{text-decoration:line-through;color:var(--soft)}
@@ -102,7 +102,7 @@
   </div>
 
   <h2>日ごとの行程</h2>
-  <p class="small" style="margin:-4px 0 10px">「予約済み」は、幹事さんが予約したものです。<span style="color:var(--red);font-weight:700">赤い時刻</span>は、遅れると次の予定に響く時刻です。</p>
+  <p class="small" style="margin:-4px 0 10px">「予約済み」は、幹事さんが予約したものです。<span style="font-weight:700;text-decoration:underline">下線の時刻</span>は、遅れると次の予定に響く時刻です。</p>
   <div class="days" id="days">
     <button class="day-btn on" data-d="1"><div class="n">DAY 1</div><div class="d">7/16(木)</div><div class="p">摩周湖・美幌峠</div></button>
     <button class="day-btn" data-d="2"><div class="n">DAY 2</div><div class="d">7/17(金)</div><div class="p">神の子池・知床</div></button>
