@@ -11,7 +11,7 @@
   .board{position:relative;overflow:hidden;margin:20px;width:1220px;height:1240px;background:#fff}
   .photo{position:absolute;background-size:cover;background-position:center}
   .hand{font-family:"Klee One",cursive}
-  .phone{position:absolute;background:#111;border-radius:46px;padding:16px;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+  .phone{position:absolute;background:#111;border-radius:52px;padding:14px;box-shadow:0 18px 40px rgba(0,0,0,.25)}
   .phone .scr{width:100%;height:100%;border-radius:32px;overflow:hidden;background:#fff}
   .phone .scr img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
   .num{flex:none;width:76px;height:76px;border-radius:50%;background:var(--blue);color:#fff;font-size:40px;font-weight:900;display:grid;place-items:center}
@@ -28,8 +28,8 @@
     <div style="font-size:36px;font-weight:900;background:#fff;color:var(--blue);display:inline-block;padding:6px 18px">グループ旅行の幹事さんへ</div>
     <div style="font-size:92px;font-weight:900;line-height:1.15;margin-top:22px;text-shadow:0 2px 14px rgba(0,0,0,.35)">全員の希望を<br>行程表に<br>まとめます</div>
   </div>
-  <div class="phone" style="right:70px;top:330px;width:400px;height:577px"><div class="scr"><img src="../04_sample_itinerary/sample_nasu_ja_p1.png"></div></div>
-  <div class="hand" style="position:absolute;right:110px;top:930px;font-size:30px;color:var(--soft)">↑ 実際に届く行程表の見本</div>
+  <div class="phone" style="right:80px;top:250px;width:370px;height:760px"><div class="scr" style="border-radius:40px"><img src="../04_sample_itinerary/web_phone_top.png"></div></div>
+  <div class="hand" style="position:absolute;left:770px;width:380px;top:1022px;font-size:24px;line-height:1.35;color:var(--soft);text-align:center">↑ Web版の行程表の見本<br>（4泊5日・7,000円の内容）</div>
   <div style="position:absolute;left:70px;top:680px;width:640px">
     <div style="font-size:44px;font-weight:900;line-height:1.35">幹事さんは<span style="color:var(--blue)">質問に答えて<br>URLを貼るだけ</span>。<br>言いにくい本音も、<br>名前を出さずに集めます。</div>
     <div style="margin-top:34px;display:flex;align-items:baseline;gap:16px">
@@ -51,7 +51,7 @@
       <div style="display:flex;gap:22px;align-items:center;background:var(--sky);border-radius:20px;padding:20px 24px"><div class="num">2</div><div><div style="font-size:36px;font-weight:900">URLをLINEに貼る</div><div style="font-size:25px;color:var(--soft);margin-top:2px">案内文と催促文もお送りします</div></div></div>
       <div class="hand" style="font-size:30px;color:var(--soft);padding-left:24px">あとはおまかせください ↓</div>
       <div style="display:flex;gap:22px;align-items:center;border:3px solid var(--sky);border-radius:20px;padding:18px 24px"><div class="num" style="background:#fff;color:var(--blue);border:3px solid var(--blue)">3</div><div><div style="font-size:34px;font-weight:900">メンバーが3分で回答</div><div style="font-size:25px;color:var(--soft);margin-top:2px">予算や苦手は名前を出さずに集計</div></div></div>
-      <div style="display:flex;gap:22px;align-items:center;border:3px solid var(--sky);border-radius:20px;padding:18px 24px"><div class="num">4</div><div><div style="font-size:34px;font-weight:900">行程表が届く</div><div style="font-size:25px;color:var(--soft);margin-top:2px">PDF＋編集できるファイル</div></div></div>
+      <div style="display:flex;gap:22px;align-items:center;border:3px solid var(--sky);border-radius:20px;padding:18px 24px"><div class="num">4</div><div><div style="font-size:34px;font-weight:900">行程表が届く</div><div style="font-size:25px;color:var(--soft);margin-top:2px">スマホで見るWeb版＋PDF</div></div></div>
     </div>
   </div>
 </div>
@@ -59,25 +59,24 @@
 <!-- 3. SAMPLE -->
 <div class="board" id="cc_sample" style="background:var(--sky)">
   <div style="position:absolute;left:70px;right:70px;top:140px">
-    <div style="font-size:30px;font-weight:900;color:var(--blue)">見本：那須 1泊2日・友人8人</div>
-    <div style="font-size:60px;font-weight:900;margin-top:6px">こんな行程表が届きます</div>
+    <div style="font-size:30px;font-weight:900;color:var(--blue)">見本：北海道・道東 4泊5日・友人4人</div>
+    <div style="font-size:58px;font-weight:900;margin-top:6px">こんな行程表が届きます</div>
   </div>
-  <div style="position:absolute;left:60px;top:300px;width:700px;background:#fff;border-radius:18px;padding:16px;box-shadow:0 8px 24px rgba(20,35,46,.12)"><img src="../04_sample_itinerary/nasu_crop_am.png" style="display:block;width:100%"></div>
-  <div class="bubble" style="left:790px;top:320px;width:370px"><span style="color:var(--blue)">「早起きが苦手」3名</span><br>→ 集合はゆっくり9時に</div>
-  <div class="bubble" style="left:790px;top:440px;width:370px"><span style="color:var(--blue)">新幹線で来るEさん</span><br>→ 11:30に駅で拾う</div>
-  <div class="bubble" style="left:790px;top:640px;width:370px"><span style="color:var(--blue)">体験は3案から投票</span><br>→ 午後にSUP</div>
-  <div style="position:absolute;left:60px;top:880px;right:70px;display:flex;align-items:center;gap:16px"><span style="background:var(--redbg);color:var(--red);font-weight:900;font-size:30px;padding:8px 16px">遅れられない時刻は赤</span><span class="hand" style="font-size:30px;color:var(--soft)">← 当日、ここだけ見れば迷いません</span></div>
+  <div class="phone" style="left:80px;top:290px;width:400px;height:820px"><div class="scr" style="border-radius:40px"><img src="../04_sample_itinerary/web_phone_day1.png"></div></div>
+  <div class="bubble" style="left:540px;top:330px;width:610px"><span style="color:var(--blue)">日ごとにタブで切り替え</span><br>場所名をタップすると、そのままナビに</div>
+  <div class="bubble" style="left:540px;top:520px;width:610px"><span style="color:var(--blue)">写真好きのAさん</span><br>→ 美幌峠は夕焼けの時間に合わせて18:15着</div>
+  <div class="bubble" style="left:540px;top:710px;width:610px"><span style="color:var(--blue)">「早起きが苦手」2名（匿名）</span><br>→ 早朝の撮影は任意、全員の出発は8時以降</div>
+  <div class="bubble" style="left:540px;top:900px;width:610px;border-color:var(--red)"><span style="color:var(--red)">遅れられない時刻は赤</span><br>当日、ここだけ見れば迷いません</div>
 </div>
 
 <!-- 4. WHAT YOU GET -->
 <div class="board" id="cc_items">
-  <div class="photo" style="left:0;right:0;top:0;height:400px;background-image:url(photos/fuji_top2.jpg);background-position:50% 60%"></div><div style="position:absolute;left:0;right:0;top:0;height:400px;background:linear-gradient(0deg,rgba(10,25,40,.55),rgba(10,25,40,0) 55%)"></div>
+  <div class="photo" style="left:0;right:0;top:0;height:400px;background-image:url(photos/pond.jpg);background-position:50% 55%"></div><div style="position:absolute;left:0;right:0;top:0;height:400px;background:linear-gradient(0deg,rgba(10,25,40,.55),rgba(10,25,40,0) 55%)"></div>
   <div style="position:absolute;left:70px;top:290px;color:#fff;font-size:62px;font-weight:900;text-shadow:0 2px 14px rgba(0,0,40,.5)">お届けするもの</div>
-  <div class="phone" style="right:150px;top:440px;width:360px;height:520px;transform:rotate(-5deg)"><div class="scr"><img src="../04_sample_itinerary/sample_nasu_ja_p3.png"></div></div>
-  <div class="phone" style="right:40px;top:500px;width:400px;height:577px"><div class="scr"><img src="../04_sample_itinerary/sample_nasu_ja_p2.png"></div></div>
-  <div style="position:absolute;left:70px;top:450px;width:690px;display:flex;flex-direction:column;gap:16px">
+  <div class="phone" style="right:70px;top:440px;width:310px;height:665px"><div class="scr" style="border-radius:36px"><img src="../04_sample_itinerary/web_phone_info.png"></div></div>
+  <div style="position:absolute;left:70px;top:450px;width:560px;display:flex;flex-direction:column;gap:16px">
     <div style="display:flex;gap:18px;align-items:center"><div class="num" style="width:62px;height:62px;font-size:32px">1</div><div><div style="font-size:38px;font-weight:900">希望アンケート</div><div style="font-size:25px;color:var(--soft)">3分で回答。集計は匿名で</div></div></div>
-    <div style="display:flex;gap:18px;align-items:center"><div class="num" style="width:62px;height:62px;font-size:32px">2</div><div><div style="font-size:38px;font-weight:900">分単位の行程表</div><div style="font-size:25px;color:var(--soft)">PDF＋編集できるファイル</div></div></div>
+    <div style="display:flex;gap:18px;align-items:center"><div class="num" style="width:62px;height:62px;font-size:32px">2</div><div><div style="font-size:38px;font-weight:900">分単位の行程表</div><div style="font-size:25px;color:var(--soft)">スマホで見るWeb版＋PDF</div></div></div>
     <div style="display:flex;gap:18px;align-items:center"><div class="num" style="width:62px;height:62px;font-size:32px">3</div><div><div style="font-size:38px;font-weight:900">1人あたりの費用</div><div style="font-size:25px;color:var(--soft)">割り勘の目安に</div></div></div>
     <div style="display:flex;gap:18px;align-items:center"><div class="num" style="width:62px;height:62px;font-size:32px">4</div><div><div style="font-size:38px;font-weight:900">予約が必要なもの</div><div style="font-size:25px;color:var(--soft)">締切の目安つきの一覧</div></div></div>
     <div style="display:flex;gap:18px;align-items:center"><div class="num" style="width:62px;height:62px;font-size:32px">5</div><div><div style="font-size:38px;font-weight:900">雨の日案・マップ</div><div style="font-size:25px;color:var(--soft)">Googleマップのリストつき</div></div></div>
