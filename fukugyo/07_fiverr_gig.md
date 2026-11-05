@@ -51,7 +51,7 @@ No. I focus on the itinerary itself. I'll mark everything that needs a reservati
 I'll send you a short reminder message to share. If answers haven't come in after 3 days, I'll plan with the answers I have plus what you've told me.
 
 **Will my group's answers be shared with everyone?**
-No. Only I see the answers, and I use them just to build the plan. They are deleted 30 days after delivery.
+No. Only I see the answers, and I use them just to build the plan.
 
 **We haven't decided which cities to visit. Can you help?**
 Yes. Tell me your dates and what your group loves, and I'll suggest a route before building the full plan.
