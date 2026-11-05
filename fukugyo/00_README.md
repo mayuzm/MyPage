@@ -36,3 +36,7 @@
 2. Googleフォーム：`03_hearing_sheet.md` の設問で日本語版・英語版を作る（新しいGoogleアカウントで）
 3. Fiverr：新しいGigを作って公開（ココナラ公開の1〜2週間後）
 4. 判定：60日以内にどちらかで1件、90日以内に同じお店で3件
+
+## アンケートのひな形（作成済み）
+- 編集用：https://docs.google.com/forms/d/17p5Y1Y4PF9HyctXpzlFcle29tY8zduVSYDhP7XGNkWM/edit
+- 注文ごとに、編集画面の「︙」→「コピーを作成」で複製し、タイトルと説明文の「〇〇」を書き換えて使う
