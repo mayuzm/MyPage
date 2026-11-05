@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ココナラ出品画像 v3</title>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&family=Klee+One:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#22201c;--soft:#6b655c;--paper:#f7f3ec;--line:#d8d0c3;--accent:#c4512f;--deep:#163a4a}
+  *{box-sizing:border-box}
+  body{margin:0;background:#777;font-family:"Zen Kaku Gothic New",sans-serif;color:var(--ink)}
+  .board{position:relative;overflow:hidden;margin:20px;width:1220px;height:1240px;background:var(--paper)}
+  .photo{position:absolute;background-size:cover;background-position:center}
+  .hand{font-family:"Klee One",cursive}
+</style>
+</head>
+<body>
+
+<!-- 1. MAIN -->
+<div class="board" id="cc_main">
+  <div class="photo" style="inset:0;background-image:url(photos/snorkel.jpg);background-position:50% 45%"></div>
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,25,40,.72) 0%,rgba(10,25,40,.35) 38%,rgba(10,25,40,0) 55%)"></div>
+  <div style="position:absolute;left:80px;right:80px;top:160px;color:#fff">
+    <div style="font-size:38px;font-weight:700;letter-spacing:.06em;border-bottom:3px solid #fff;display:inline-block;padding-bottom:6px">グループ旅行の幹事さんへ</div>
+    <div style="font-size:104px;font-weight:900;line-height:1.15;margin-top:26px;text-shadow:0 2px 18px rgba(0,0,0,.35)">全員の希望を、<br>迷わない行程表に。</div>
+  </div>
+  <div style="position:absolute;left:60px;right:60px;bottom:140px;background:var(--paper);padding:30px 36px 26px">
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;font-size:34px;font-weight:700;line-height:1.35">
+      <div style="padding-right:20px">幹事さんは<br>URLを貼るだけ</div>
+      <div style="padding:0 20px;border-left:2px solid var(--line)">本音は名前を<br>出さずに集計</div>
+      <div style="padding-left:20px;border-left:2px solid var(--line)">分単位の<br>行程表で届く</div>
+    </div>
+    <div style="margin-top:18px;padding-top:16px;border-top:2px solid var(--line);display:flex;align-items:baseline;gap:18px">
+      <span style="font-size:30px;font-weight:700;color:var(--accent)">モニター価格（先着3件）</span>
+      <span style="font-size:52px;font-weight:900;color:var(--accent)">2,500円</span>
+    </div>
+  </div>
+</div>
+
+<!-- 2. FLOW -->
+<div class="board" id="cc_flow">
+  <div class="photo" style="left:0;top:0;bottom:0;width:470px;background-image:url(photos/road.jpg);background-position:50% 60%"></div>
+  <div style="position:absolute;left:530px;right:70px;top:150px">
+    <div style="font-size:30px;font-weight:700;color:var(--accent);letter-spacing:.08em">ご依頼の流れ</div>
+    <div style="font-size:64px;font-weight:900;line-height:1.2;margin:10px 0 36px">幹事さんの手間は<br>これだけです</div>
+    <div style="display:flex;flex-direction:column">
+      <div style="display:flex;gap:24px;padding:22px 0;border-top:2px solid var(--line)"><div style="font-size:52px;font-weight:900;color:var(--accent);width:44px">1</div><div><div style="font-size:38px;font-weight:900">10分の質問に答える</div><div style="font-size:26px;color:var(--soft);margin-top:4px">日程・人数・決まっていること</div></div></div>
+      <div style="display:flex;gap:24px;padding:22px 0;border-top:2px solid var(--line)"><div style="font-size:52px;font-weight:900;color:var(--accent);width:44px">2</div><div><div style="font-size:38px;font-weight:900">URLをLINEに貼る</div><div style="font-size:26px;color:var(--soft);margin-top:4px">案内文と催促文もお送りします</div></div></div>
+      <div style="display:flex;gap:24px;padding:22px 0;border-top:2px solid var(--line)"><div style="font-size:52px;font-weight:900;color:var(--accent);width:44px">3</div><div><div style="font-size:38px;font-weight:900">メンバーが3分で回答</div><div style="font-size:26px;color:var(--soft);margin-top:4px">予算や苦手は名前を出さずに集計</div></div></div>
+      <div style="display:flex;gap:24px;padding:22px 0;border-top:2px solid var(--line);border-bottom:2px solid var(--line)"><div style="font-size:52px;font-weight:900;color:var(--accent);width:44px">4</div><div><div style="font-size:38px;font-weight:900">行程表が届く</div><div style="font-size:26px;color:var(--soft);margin-top:4px">PDF＋編集できるファイル</div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- 3. SAMPLE -->
+<div class="board" id="cc_sample">
+  <div style="position:absolute;left:70px;right:70px;top:150px">
+    <div style="font-size:30px;font-weight:700;color:var(--accent);letter-spacing:.08em">見本：那須 1泊2日・友人8人</div>
+    <div style="font-size:62px;font-weight:900;line-height:1.2;margin:10px 0 30px">全員の希望を、こう反映します</div>
+    <div style="background:#fff;padding:14px;border:1px solid var(--line)"><img src="../04_sample_itinerary/nasu_crop_table.png" style="display:block;width:100%"></div>
+    <div class="hand" style="margin-top:20px;font-size:32px;color:var(--deep)">↑ 予算や「早起きが苦手」は、名前を出さずに人数でまとめます</div>
+    <div style="margin-top:34px;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      <span style="font-size:28px;font-weight:700;color:var(--soft)">遅れられない時刻は赤で</span>
+      <span style="background:#f6dfd6;color:#8f2a17;font-weight:900;font-size:28px;padding:8px 16px">11:30 駅で合流</span>
+      <span style="background:#f6dfd6;color:#8f2a17;font-weight:900;font-size:28px;padding:8px 16px">12:50 SUP受付</span>
+      <span style="background:#f6dfd6;color:#8f2a17;font-weight:900;font-size:28px;padding:8px 16px">10:00 チェックアウト</span>
+    </div>
+  </div>
+</div>
+
+<!-- 4. WHAT YOU GET -->
+<div class="board" id="cc_items">
+  <div class="photo" style="left:0;right:0;top:0;height:500px;background-image:url(photos/boats.jpg);background-position:30% 40%"></div>
+  <div style="position:absolute;left:70px;top:370px;color:#fff;font-size:68px;font-weight:900;text-shadow:0 2px 14px rgba(0,0,40,.5)">お届けするもの</div>
+  <div style="position:absolute;left:70px;right:70px;top:530px">
+    <div style="display:grid;grid-template-columns:1fr 1fr;column-gap:50px">
+      <div style="padding:18px 0;border-top:2px solid var(--line)"><div style="font-size:38px;font-weight:900">希望アンケート</div><div style="font-size:27px;color:var(--soft);margin-top:6px">3分で答えられる。集計は匿名</div></div>
+      <div style="padding:18px 0;border-top:2px solid var(--line)"><div style="font-size:38px;font-weight:900">分単位の行程表</div><div style="font-size:27px;color:var(--soft);margin-top:6px">遅れられない時刻は赤で</div></div>
+      <div style="padding:18px 0;border-top:2px solid var(--line)"><div style="font-size:38px;font-weight:900">1人あたりの費用</div><div style="font-size:27px;color:var(--soft);margin-top:6px">割り勘の目安に</div></div>
+      <div style="padding:18px 0;border-top:2px solid var(--line)"><div style="font-size:38px;font-weight:900">雨の日の代わりの案</div><div style="font-size:27px;color:var(--soft);margin-top:6px">天気が崩れても慌てない</div></div>
+      <div style="padding:18px 0;border-top:2px solid var(--line);border-bottom:2px solid var(--line)"><div style="font-size:38px;font-weight:900">予約が必要なもの</div><div style="font-size:27px;color:var(--soft);margin-top:6px">締切の目安つきの一覧</div></div>
+      <div style="padding:18px 0;border-top:2px solid var(--line);border-bottom:2px solid var(--line)"><div style="font-size:38px;font-weight:900">Googleマップ</div><div style="font-size:27px;color:var(--soft);margin-top:6px">行き先をまとめたリスト</div></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
