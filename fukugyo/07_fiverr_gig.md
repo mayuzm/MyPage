@@ -51,13 +51,13 @@ No. I focus on the itinerary itself. I'll mark everything that needs a reservati
 I'll send you a short reminder message to share. If answers haven't come in after 3 days, I'll plan with the answers I have plus what you've told me.
 
 **Will my group's answers be shared with everyone?**
-Budget and "things I'd rather avoid" are summarized without names. Only food restrictions are shared as safety notes. Answers are deleted 30 days after delivery.
+Answers are never shown in the shared itinerary. You get a short summary with numbers only, no names. Answers are deleted 30 days after delivery.
 
 **We haven't decided which cities to visit. Can you help?**
 Yes. Tell me your dates and what your group loves, and I'll suggest a route before building the full plan.
 
 **Can you help with food restrictions?**
-I'll collect everyone's restrictions in the survey and note them clearly in the plan, but I don't recommend specific restaurants. Please check directly with each restaurant, especially for allergies.
+The plan doesn't recommend specific restaurants, so please check menus and allergies directly with each place. Your group can easily adjust meals within the plan.
 
 **When should I order?**
 Ideally at least 3 weeks before your trip. If it's sooner, message me first.
