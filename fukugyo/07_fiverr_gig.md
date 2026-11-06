@@ -1,103 +1,102 @@
-# ⑦ Fiverr Gig（v3：メンバーアンケートなし・英語）
+# ⑦ Fiverr Gig 1（v7：AIで作った行程を日本語の情報で良くする・英語）
 
-ココナラが外部ツール（Googleフォーム）を理由に取り下げになったため、Fiverrも同じ形にそろえる。Fiverrも、取引をプラットフォームの外に移すことを禁止している（Community Standards: Off-platform policy）。依頼者とのやり取りはすべてFiverrのメッセージで行う。旧Gigは、新Gigを公開する前に一時停止する。
+北海道・離島・自然に特化した「一から作る」Gig 2は、このGigの公開2〜3週間後に別で出す。
 
-## Gig title（上限80字とされる。画面で確認）
-I will create a detailed Japan itinerary for your family or group trip
+方針は `10_fiverr_strategy.md`。旧v3（グループ向け）はgitの履歴に残っている。
+やり取り・納品はすべてFiverrのメッセージで行う。外部のフォームやチャットは使わない。
+
+## Gig title（上限80字）
+I will review your Japan itinerary and catch what AI misses, using Japanese sources
 
 ## Category
-Personal Growth & Hobbies › Traveling › Trip Plans ／ 目的地：Japan ／ 旅行タイプ：Family・Group・Solo（上限3つ）
+Personal Growth & Hobbies › Traveling › Trip Plans ／ 目的地：Japan ／ 旅行タイプ：Solo・Family・Group
 
 ## Search tags（5つ）
-japan itinerary / group travel / family trip japan / japan travel planner / japan trip
+japan itinerary / itinerary review / ai itinerary / japan travel planner / japan trip planner
 
 ## Description（上限1,200字）
-Planning Japan for a group is hard. One person wants temples, another wants ramen, someone hates early mornings, and Grandma can't walk all day. And you, the organizer, end up doing all the research.
+Made your Japan itinerary with AI? AI plans can look right and still fail on the ground: tight transfers, closed days, and places locals don't rate.
 
-I'm a Japanese planner living near Tokyo. Just answer one short questionnaire about your trip and your group, and I'll turn it into one clear, step-by-step itinerary that works for everyone.
+I'll check your plan day by day against Japanese sources, then tell you what to keep, change and add.
+
+Problems I often catch: Kyoto in the morning and Shirakawa-go after lunch (3+ hours away), a last bus at 4:30 pm, a ropeway with shorter winter hours, or a famous restaurant locals rate below a quieter one nearby.
+
+I'm Japanese, based near Tokyo, and I've traveled widely across Japan, from big cities to remote islands.
 
 WHAT YOU GET
-- A mobile-friendly web itinerary: share one link with your group, no app needed. Tap any place name to open directions.
-- A printable PDF and a Google Maps list of every stop.
-- Real travel times for every step, plus the departure times that matter.
-- A rainy-day backup, a booking checklist with deadlines, and (Standard and up) a cost estimate per person.
+- Timing check: train, bus and drive times checked against official timetables
+- Food check: your restaurants checked on Japanese sites (ratings, closed days, cash-only), with nearby alternatives
+- Local picks: lesser-known places Japanese travelers love (3/6/10 by package)
+- A booking list with deadlines
+- Your updated itinerary as a PDF (sample in the gallery)
 
-WHY IT WORKS FOR GROUPS
-I plan around the slowest walker and the latest riser, so nobody is left exhausted or rushing.
+Kids, rural areas or winter? Tell me and I'll check walking, pace and seasonal closures.
 
-PERFECT FOR
-First-time visitors, families with kids or older parents, and friend groups with different tastes.
+I don't book anything or choose hotels. Please recheck times a week before your trip.
 
-PLEASE NOTE
-I create the itinerary; you make the bookings. I'll list what needs booking and by when.
+Only have a rough list? Message me first.
 
-Not sure if your trip fits? Message me first. I usually reply within 24 hours.
-
-## Packages（スタート価格。レビュー5件で $30 / $65 / $120 に上げる）
+## Packages（スタート価格。レビュー5件で $60 / $110 / $190 に上げる）
 | | Basic | Standard | Premium |
 |---|---|---|---|
-| Name（35字） | One Perfect Day | Short Trip | Two-City Journey |
-| Description（100字） | 1-day group itinerary: mobile web plan, PDF, Google Maps list, rainy-day backup | Up to 3 days: everything in Basic plus a cost estimate per person | Up to 5 days, up to 2 cities: everything in Standard, 2 revisions |
-| Price | $20 | $45 | $85 |
-| Delivery | 5 days | 7 days | 10 days |
-| 泊数（画面の項目） | 1 | 3 | 5 |
+| Name（35字） | Short Trip Rebuild | Full Trip Rebuild | Long Trip Rebuild |
+| Description（100字） | Up to 5 days: issues flagged with fixes, timed itinerary PDF, booking list, 1 revision | Up to 10 days: everything in Basic, for longer or multi-region trips, 1 revision | Up to 14 days: everything in Standard, plus 2 revisions |
+| Price | $45 | $85 | $150 |
+| Delivery | 5 days | 7 days | 12 days |
+| 泊数（画面の項目） | 4 | 9 | 13 |
 | Custom planning | ✓ | ✓ | ✓ |
-| Map included | ✓ | ✓ | ✓ |
-| Destinations | 1 | 2 | 3 |
-| Booking / Budget（画面の項目） | ✘ | ✘ | ✘ |
+| Map included | ✘ | ✘ | ✘ |
+| Destinations | 5 | 9 | 13 |
+| Booking / Budget | ✘ | ✘ | ✘ |
 
-修正回数の欄はこのカテゴリにないため、プランの説明とFAQに書く（Basic・Standardは1回、Premiumは2回）。オプション（Extras）は最初は付けない。
+中身は3プラン共通で、差は日数と修正回数だけ。修正回数はプランの説明とFAQに書く（Basic・Standardは1回、Premiumは2回）。Extrasは最初は付けない。
 
-## FAQ
-**Can you book hotels, trains or restaurants for me?**
-No. I focus on the itinerary itself. I'll mark everything that needs a reservation and when to book it, so you can book with confidence.
+## FAQ（回答は各300字以内）
+**What format can my itinerary be in?**
+Anything works: typed notes, a spreadsheet, screenshots, or a plan from ChatGPT or another AI tool. Just paste or attach it here on Fiverr.
 
-**How do you know what my group wants?**
-After you order, I'll send a short questionnaire here on Fiverr. Tell me what you know about your group: walking limits, early or late risers, must-see places, foods, and anything to avoid.
+**Which areas do you cover?**
+All of Japan. Big-city plans often have tight transfers or closed days. Rural routes are where I find the most problems, since buses run less often and key information is often only in Japanese.
 
-**Is the web itinerary public?**
-It's a private link that isn't listed on search engines. It has no booking numbers or addresses, and I take it down 30 days after your trip. The PDF is yours to keep.
+**Do you book or recommend hotels and trains?**
+No. I work with what you've already chosen and check that it all fits together. If something doesn't, I'll tell you what kind of transport fits and roughly when, so you can choose and book yourself.
 
-**We haven't decided which cities to visit. Can you help?**
-Tell me your dates and what your group loves, and I'll suggest a route before building the full plan.
+**I'm renting a car. Can you check driving routes?**
+Yes. I check driving times, seasonal road closures, and whether you'll be driving after dark, which matters a lot in snowy regions in winter.
 
-**Can you help with food restrictions?**
-The plan doesn't recommend specific restaurants, so please check menus and allergies directly with each place.
+**How current are the times?**
+I use the timetables that are current when I deliver. Japan's railways revise schedules every March, and rural buses can change by season, so please recheck times about a week before you travel.
+
+**I don't have an itinerary yet. Can you still help?**
+This service checks an existing plan, even a rough one. If you only have a list of places, message me first.
+
+**How many restaurants do you check?**
+Up to 2 per day of your trip, usually lunch and dinner. I check Japanese review sites, closed days and payment, and suggest a nearby alternative when one is clearly better.
 
 **How do revisions work?**
-Basic and Standard include 1 revision, Premium includes 2. Tell me what to change (pacing, swap a stop, more or less detail) and I'll update both the web plan and the PDF.
+Basic and Standard include 1 revision, Premium includes 2. Tell me what to change, and I'll update the itinerary and recheck the affected times.
 
 **When should I order?**
-Ideally at least 2 weeks before your trip. If it's sooner, message me first.
+Ideally at least 2 weeks before your trip. If it's sooner, message me first. I usually reply within 12 hours (Japan time).
 
-## Requirements（購入後に聞く項目）
-1. Travel dates, and the city or airport where you arrive and leave（必須）
-2. Number of travelers, their ages, and how you know each other（必須）
-3. Hotels and anything else already booked (tours, JR Pass, trains)（必須）
-4. Places or foods your group definitely wants
-5. Your group's pace and walking limits (lots of walking / moderate / as little as possible)
-6. What time your group can usually start in the morning
-7. Anything to avoid (long rides, crowds, heights, motion sickness) and anyone who needs extra care
-8. Budget per person per day (excluding hotels)
+## Requirements（購入後に聞く項目・各400字以内）
+1. Your itinerary: paste it here or attach a file（必須）
+2. Travel dates, the airport or city where you arrive and leave, and flight times if known（必須）
+3. How you plan to get around: which rail pass (if any), rental car, buses（必須）
+4. What's already booked: hotels, trains, tours, flights（必須）
+5. Number of travelers, and anything that affects your pace (young kids, older travelers, limited walking)（必須）
+6. What worries you most about this plan（任意）
 
-## Gig gallery（画像は3枚まで：1280×769。PDFは2つまで添付できる）
-- fv_main：メイン（見出し＋写真）
-- fv_sample：英語見本のスマホ画面（引き出し線で説明）
-- fv_how：流れ（Order → Answer a few questions → Get your itinerary）
-- 英語見本はNetlifyに公開（道東版の英訳）。PDF版もGalleryに添付する
+## プロフィール（Fiverr用の自己紹介・上限600字）
+Hi, I'm Yui, a Japanese planner based near Tokyo. I check and rebuild Japan itineraries so they work on the ground, from tight big-city transfers to rural buses where key information is often only in Japanese. By day I manage web projects, turning loose plans into clear, workable ones. I bring the same care to travel: every trip I plan, from Yakushima to eastern Hokkaido, comes with real travel times for every step. I've lived in Canada, so I know how it feels to find your way in a new country.
 
-## プロフィール（Fiverr用の自己紹介）
-Hi, I'm Yui, a Japanese planner based near Tokyo who loves designing trips that work for everyone. By day I manage web projects, turning many people's requests into one clear plan. I bring the same approach to travel: every trip I plan, from Yakushima to Hokkaido, and even friends' group trips I didn't join, comes with real travel times for every step. I've lived and worked in Canada, so I know how it feels to explore a new country, and I'd love to help your group enjoy Japan without the stress.
+## Gig gallery（画像3枚：1280×769、PDF2つまで）
+- 後で作る。1枚目は「Before / After」（AIの行程の問題箇所 → 直した行程）を主役にする案
+- 英語の見本は本州の「大都市から地方へ足を延ばす行程」（例：京都→高山・白川郷）で、「よくあるAIの行程」と「直した版」の2つを用意する。道東の見本はGig 2で使う
+- Gig 2を公開したら、FAQ「I don't have an itinerary yet」をGig 2への案内に差し替える
 
 ## 注意
-- 依頼者とのやり取り（質問・確認・納品）はすべてFiverrのメッセージで行う。外部のフォームやチャットは使わない
-- 納品は必ずPDFを添付する。Web版とGoogleマップのリストのURLは、納品メッセージの中でだけ送る
-- 同時に受ける注文は1件まで（Fiverrの「注文の上限」を1にし、ココナラで注文が入ったらFiverrを休止モードにする。逆も同じ）
+- 納品は必ずPDFを添付する
+- 同時に受ける注文は1件まで（ココナラで注文が入ったらFiverrを休止モードにする。逆も同じ）
 - 返信は昼休みと夜にスマホのアプリで行う
-
-## 既存のGig（3つとも一時停止中・直近30日の表示はわずか）
-1. create a custom japan travel itinerary with maps and local tips（表示1）
-2. refine and fix your ai or chatgpt japan travel itinerary（表示41・クリック1）
-3. plan a hokkaido winter itinerary around snow, onsen and quiet nature（表示24・クリック2）
-- どれも「宿や飲食店を具体的に勧める」と書いてあり、Gig 1は購入後に外部のフォームを送る文面がある。今の方針と合わないので、一時停止のまま再開しない
-- Gig 2（AI行程の添削）は表示が一番多い。新Gigが軌道に乗ったら、予約・宿のおすすめを外して作り直す候補
+- 既存の3つのGigは一時停止のまま。下書き中のグループ向けGigは、この内容で上書きする
