@@ -19,7 +19,7 @@ Made your Japan itinerary with AI? AI plans can look right and still fail on the
 
 I'll check your plan day by day against Japanese sources, then tell you what to keep, change and add.
 
-Problems I often catch: Kyoto in the morning and Shirakawa-go after lunch (3+ hours away), a last bus at 4:30 pm, a ropeway with shorter winter hours, or a famous restaurant locals rate below a quieter one nearby.
+Problems I often catch: Kyoto in the morning and Shirakawa-go after lunch (3+ hours away), an early last bus, a ropeway with shorter winter hours, or a famous restaurant locals rate below a quieter one nearby.
 
 I'm Japanese, based near Tokyo, and I've traveled widely across Japan, from big cities to remote islands.
 
@@ -36,30 +36,34 @@ I don't book anything or choose hotels. Please recheck times a week before your 
 
 Only have a rough list? Message me first.
 
-## Packages（スタート価格。レビュー5件で $60 / $110 / $190 に上げる）
+## Packages（スタート価格。レビュー5件で $60 / $110 / $170 に上げる）
+価格戦略の専門家役レビュー（2026-11-07）反映：Premiumを$150→$130、納期を5/7/12日→7/10/14日（日曜夜に注文が入っても土日を必ず含めるため）。
+
 | | Basic | Standard | Premium |
 |---|---|---|---|
-| Name（35字） | Short Trip Rebuild | Full Trip Rebuild | Long Trip Rebuild |
-| Description（100字） | Up to 5 days: issues flagged with fixes, timed itinerary PDF, booking list, 1 revision | Up to 10 days: everything in Basic, for longer or multi-region trips, 1 revision | Up to 14 days: everything in Standard, plus 2 revisions |
-| Price | $45 | $85 | $150 |
-| Delivery | 5 days | 7 days | 12 days |
+| Name（35字） | Short Trip Review | Full Trip Review | Long Trip Review |
+| Description（100字） | Up to 5 days: timetable and restaurant checks, 3 local picks, booking list, PDF, 1 revision | Up to 10 days: everything in Basic for longer or multi-region trips, 6 local picks, 1 revision | Up to 14 days: everything in Standard for long trips, 10 local picks, 2 revisions |
+| Price | $45 | $85 | $130 |
+| Delivery | 7 days | 10 days | 14 days |
 | 泊数（画面の項目） | 4 | 9 | 13 |
 | Custom planning | ✓ | ✓ | ✓ |
 | Map included | ✘ | ✘ | ✘ |
 | Destinations | 5 | 9 | 13 |
 | Booking / Budget | ✘ | ✘ | ✘ |
 
-中身は3プラン共通で、差は日数と修正回数だけ。修正回数はプランの説明とFAQに書く（Basic・Standardは1回、Premiumは2回）。Extrasは最初は付けない。
+- Extrasは最初は付けない。15日以上の旅行はメッセージで相談→カスタムオファー。1件目の後に「追加の修正 $15」だけ足すのを検討
+- 作業時間の目安：Basic 約4.5時間（時給 約$8）、Standard 約7.5時間（約$9）、Premium 約10.7時間（約$10）。レビュー5件後の値上げで時給$11〜13
+- 「Destinations」の意味と、Booking/Budgetを✘にしたとき「予約リストなし」と誤解されないかは、入力画面で確認する
 
 ## FAQ（回答は各300字以内）
 **What format can my itinerary be in?**
-Anything works: typed notes, a spreadsheet, screenshots, or a plan from ChatGPT or another AI tool. Just paste or attach it here on Fiverr.
+Anything works: typed notes, a spreadsheet, screenshots, or a plan from ChatGPT or another AI tool. Just paste it or attach the file here on Fiverr.
 
-**Which areas do you cover?**
-All of Japan. Big-city plans often have tight transfers or closed days. Rural routes are where I find the most problems, since buses run less often and key information is often only in Japanese.
+**Will you rewrite my whole plan?**
+No. I keep what works and change only what doesn't, with a short reason for each change. If your plan is already solid, I'll tell you so and spend the time on local picks and smaller fixes.
 
 **Do you book or recommend hotels and trains?**
-No. I work with what you've already chosen and check that it all fits together. If something doesn't, I'll tell you what kind of transport fits and roughly when, so you can choose and book yourself.
+No. I don't make bookings or calls, and I don't choose hotels, trains or tours. I check that what you've chosen fits together. If something doesn't, I'll tell you what kind of transport works and roughly when, so you can choose and book it yourself.
 
 **I'm renting a car. Can you check driving routes?**
 Yes. I check driving times, seasonal road closures, and whether you'll be driving after dark, which matters a lot in snowy regions in winter.
@@ -67,28 +71,27 @@ Yes. I check driving times, seasonal road closures, and whether you'll be drivin
 **How current are the times?**
 I use the timetables that are current when I deliver. Japan's railways revise schedules every March, and rural buses can change by season, so please recheck times about a week before you travel.
 
-**I don't have an itinerary yet. Can you still help?**
-This service checks an existing plan, even a rough one. If you only have a list of places, message me first.
-
 **How many restaurants do you check?**
 Up to 2 per day of your trip, usually lunch and dinner. I check Japanese review sites, closed days and payment, and suggest a nearby alternative when one is clearly better.
 
 **How do revisions work?**
-Basic and Standard include 1 revision, Premium includes 2. Tell me what to change, and I'll update the itinerary and recheck the affected times.
+Basic and Standard include 1 revision, Premium includes 2. Tell me what to change within the same trip, and I'll update the itinerary and recheck the affected times. New dates or extra days count as a new order.
 
 **When should I order?**
-Ideally at least 2 weeks before your trip. If it's sooner, message me first. I usually reply within 12 hours (Japan time).
+Ideally at least 3 weeks before your trip, since delivery takes 7 to 14 days. If it's sooner, message me first. I reply within 24 hours, usually at lunchtime or in the evening (Japan time).
+
+**I don't have an itinerary yet. Can you still help?**
+This service checks an existing plan, even a rough one. If you only have a list of places, message me first.
 
 ## Requirements（購入後に聞く項目・各400字以内）
-1. Your itinerary: paste it here or attach a file（必須）
-2. Travel dates, the airport or city where you arrive and leave, and flight times if known（必須）
-3. How you plan to get around: which rail pass (if any), rental car, buses（必須）
-4. What's already booked: hotels, trains, tours, flights（必須）
-5. Number of travelers, and anything that affects your pace (young kids, older travelers, limited walking)（必須）
-6. What worries you most about this plan（任意）
+1. Your itinerary: paste it here or attach the file. If it's a list of places rather than a day-by-day plan, please say so.（必須・テキスト＋添付）
+2. Your travel dates, where you arrive in and leave Japan (airport or city), and your flight times if you know them.（必須）
+3. How you'll get around (rail pass, rental car, buses) and what's already booked (hotels, trains, tours). No need to share booking numbers or passport details.（必須）
+4. Who's traveling (number of people, kids' ages, anyone who can't walk far), what you enjoy most (food, nature, history, shopping...) and any foods you avoid. This helps me choose your local picks.（必須）
+5. Anything that worries you about this plan, or anything else I should know.（任意）
 
 ## プロフィール（Fiverr用の自己紹介・上限600字）
-Hi, I'm Yui, a Japanese planner based near Tokyo. I check and rebuild Japan itineraries so they work on the ground, from tight big-city transfers to rural buses where key information is often only in Japanese. By day I manage web projects, turning loose plans into clear, workable ones. I bring the same care to travel: every trip I plan, from Yakushima to eastern Hokkaido, comes with real travel times for every step. I've lived in Canada, so I know how it feels to find your way in a new country.
+Hi, I'm Yui, and Wander Japan is my travel service here. I'm Japanese, based near Tokyo, and I check Japan itineraries, including ones made with AI, against Japanese timetables and the review sites locals actually use. By day I manage web projects, so turning loose plans into clear, workable ones is what I do. I plan my own trips the same way, from Yakushima to eastern Hokkaido, with real travel times for every step. I studied and worked in Canada, so I know what it's like to find your way in a new country. I reply at lunchtime and in the evening, Japan time.
 
 ## Gig gallery（画像3枚：1280×769、PDF2つまで）
 - 後で作る。1枚目は「Before / After」（AIの行程の問題箇所 → 直した行程）を主役にする案
