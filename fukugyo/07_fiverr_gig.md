@@ -6,7 +6,7 @@
 I will create a detailed Japan itinerary for your family or group trip
 
 ## Category
-Lifestyle > Travel Planning（画面で最も近い旅行系カテゴリを選ぶ）
+Personal Growth & Hobbies › Traveling › Trip Plans ／ 目的地：Japan ／ 旅行タイプ：Family・Group・Solo（上限3つ）
 
 ## Search tags（5つ）
 japan itinerary / group travel / family trip japan / japan travel planner / japan trip
@@ -36,15 +36,17 @@ Not sure if your trip fits? Message me first. I usually reply within 24 hours.
 ## Packages（スタート価格。レビュー5件で $30 / $65 / $120 に上げる）
 | | Basic | Standard | Premium |
 |---|---|---|---|
-| Name | One Perfect Day | Short Trip | Two-City Journey |
-| Description | 1 day, one area | Up to 3 days | Up to 5 days, up to 2 cities |
+| Name（35字） | One Perfect Day | Short Trip | Two-City Journey |
+| Description（100字） | 1-day group itinerary: mobile web plan, PDF, Google Maps list, rainy-day backup | Up to 3 days: everything in Basic plus a cost estimate per person | Up to 5 days, up to 2 cities: everything in Standard, 2 revisions |
 | Price | $20 | $45 | $85 |
 | Delivery | 5 days | 7 days | 10 days |
-| Revisions | 1 | 1 | 2 |
-| Mobile web itinerary + PDF | ✓ | ✓ | ✓ |
-| Google Maps list | ✓ | ✓ | ✓ |
-| Rainy-day backup | ✓ | ✓ | ✓ |
-| Cost estimate per person | – | ✓ | ✓ |
+| 泊数（画面の項目） | 1 | 3 | 5 |
+| Custom planning | ✓ | ✓ | ✓ |
+| Map included | ✓ | ✓ | ✓ |
+| Destinations | 1 | 2 | 3 |
+| Booking / Budget（画面の項目） | ✘ | ✘ | ✘ |
+
+修正回数の欄はこのカテゴリにないため、プランの説明とFAQに書く（Basic・Standardは1回、Premiumは2回）。オプション（Extras）は最初は付けない。
 
 ## FAQ
 **Can you book hotels, trains or restaurants for me?**
@@ -62,6 +64,9 @@ Tell me your dates and what your group loves, and I'll suggest a route before bu
 **Can you help with food restrictions?**
 The plan doesn't recommend specific restaurants, so please check menus and allergies directly with each place.
 
+**How do revisions work?**
+Basic and Standard include 1 revision, Premium includes 2. Tell me what to change (pacing, swap a stop, more or less detail) and I'll update both the web plan and the PDF.
+
 **When should I order?**
 Ideally at least 2 weeks before your trip. If it's sooner, message me first.
 
@@ -75,11 +80,11 @@ Ideally at least 2 weeks before your trip. If it's sooner, message me first.
 7. Anything to avoid (long rides, crowds, heights, motion sickness) and anyone who needs extra care
 8. Budget per person per day (excluding hotels)
 
-## Gig gallery（画像：1280×769、最低1枚。新ルールで作り直す）
+## Gig gallery（画像は3枚まで：1280×769。PDFは2つまで添付できる）
 - fv_main：メイン（見出し＋写真）
 - fv_sample：英語見本のスマホ画面（引き出し線で説明）
 - fv_how：流れ（Order → Answer a few questions → Get your itinerary）
-- 英語見本はNetlifyに公開（道東版の英訳）
+- 英語見本はNetlifyに公開（道東版の英訳）。PDF版もGalleryに添付する
 
 ## プロフィール（Fiverr用の自己紹介）
 Hi, I'm Yui, a Japanese planner based near Tokyo who loves designing trips that work for everyone. By day I manage web projects, turning many people's requests into one clear plan. I bring the same approach to travel: every trip I plan, from Yakushima to Hokkaido, and even friends' group trips I didn't join, comes with real travel times for every step. I've lived and worked in Canada, so I know how it feels to explore a new country, and I'd love to help your group enjoy Japan without the stress.
@@ -89,3 +94,10 @@ Hi, I'm Yui, a Japanese planner based near Tokyo who loves designing trips that 
 - 納品は必ずPDFを添付する。Web版とGoogleマップのリストのURLは、納品メッセージの中でだけ送る
 - 同時に受ける注文は1件まで（Fiverrの「注文の上限」を1にし、ココナラで注文が入ったらFiverrを休止モードにする。逆も同じ）
 - 返信は昼休みと夜にスマホのアプリで行う
+
+## 既存のGig（3つとも一時停止中・直近30日の表示はわずか）
+1. create a custom japan travel itinerary with maps and local tips（表示1）
+2. refine and fix your ai or chatgpt japan travel itinerary（表示41・クリック1）
+3. plan a hokkaido winter itinerary around snow, onsen and quiet nature（表示24・クリック2）
+- どれも「宿や飲食店を具体的に勧める」と書いてあり、Gig 1は購入後に外部のフォームを送る文面がある。今の方針と合わないので、一時停止のまま再開しない
+- Gig 2（AI行程の添削）は表示が一番多い。新Gigが軌道に乗ったら、予約・宿のおすすめを外して作り直す候補
