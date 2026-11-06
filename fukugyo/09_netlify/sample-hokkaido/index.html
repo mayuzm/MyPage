@@ -34,7 +34,7 @@
   .wish .done{font-size:15px}
   .wish .done::before{content:"✓ ";color:var(--green);font-weight:700}
   .wish .anon .who{color:var(--navy)}
-  .days{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+  .days{display:grid;grid-template-columns:repeat(5,1fr);grid-auto-rows:1fr;gap:8px}
   @media(max-width:560px){.days{grid-template-columns:repeat(3,1fr)}}
   .day-btn{font-family:inherit;text-align:left;background:#fff;border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:12px;padding:10px;cursor:pointer;min-height:44px}
   .day-btn .n{font-size:11px;font-weight:700;color:var(--soft)}
@@ -104,7 +104,7 @@
   </div>
 
   <h2>日ごとの行程</h2>
-  <p class="small" style="margin:-4px 0 10px">「予約済み」は、幹事さんが予約したものです。<span style="font-weight:700;text-decoration:underline">下線の時刻</span>は、遅れると次の予定に響く時刻です。</p>
+  <p class="small" style="margin:-4px 0 10px"><span style="font-weight:700;text-decoration:underline">下線の時刻</span>は、遅れると次の予定に響く時刻です。</p>
   <div class="days" id="days">
     <button class="day-btn on" data-d="1"><div class="n">DAY 1</div><div class="d">7/16(木)</div><div class="p">摩周湖・美幌峠</div></button>
     <button class="day-btn" data-d="2"><div class="n">DAY 2</div><div class="d">7/17(金)</div><div class="p">神の子池・知床</div></button>
@@ -118,17 +118,17 @@
     <div class="sub">羽田 → 中標津空港 → 摩周湖 → 川湯温泉 → 美幌峠</div>
     <div class="sun">日の入り 19:04 ／ 夕焼けは18:30〜19:30が見頃</div>
     <ul class="tl">
-      <li class="must"><span class="t">12:30</span><span>羽田空港 発（予約済みの便）<div class="note">出発前に空港でランチ。機内持ち込みの荷物は前日に確認</div></span></li>
+      <li class="must"><span class="t">12:30</span><span>羽田空港 発<div class="note">出発前に空港でランチ。機内持ち込みの荷物は前日に確認</div></span></li>
       <li><span class="t">14:10</span><span>根室中標津空港 着</span></li>
       <li><span class="t">14:50</span><span>レンタカーを受け取って出発</span></li>
       <li><span class="t">16:00</span><span><a href="https://www.google.com/maps/search/?api=1&query=摩周湖第一展望台">摩周湖 第1展望台</a><span class="mv">🚗 約1時間10分</span><div class="note">午後の光で湖のコバルトブルーがいちばん鮮やか</div></span></li>
       <li><span class="t">16:20</span><span><a href="https://www.google.com/maps/search/?api=1&query=摩周湖第三展望台">摩周湖 第3展望台</a><span class="mv">🚗 約5分</span></span></li>
-      <li><span class="t">17:10</span><span>川湯温泉の宿にチェックイン（予約済み）<span class="mv">🚗 約30分</span></span></li>
+      <li><span class="t">17:10</span><span>川湯温泉の宿にチェックイン<span class="mv">🚗 約30分</span></span></li>
       <li class="must"><span class="t">18:15</span><span><a href="https://www.google.com/maps/search/?api=1&query=美幌峠">美幌峠</a>で夕焼け<span class="mv">🚗 約45分</span><div class="warn">日の入り19:04。18:30までに展望台へ</div></span></li>
       <li><span class="t">20:30</span><span>夕食：寿司<div class="note">要予約（4名）。満席の場合のスープカレーの候補も記載</div></span></li>
       <li><span class="t">22:30</span><span>星空を見る <span class="opt">任意</span><div class="note">月の明るさと天気を見て当日判断</div></span></li>
     </ul>
-    <div class="lodge">宿泊：川湯温泉（予約済み・素泊まり）</div>
+    <div class="lodge">宿泊：川湯温泉（素泊まり）</div>
   </div>
 
   <div class="panel" data-p="2">
@@ -143,9 +143,9 @@
       <li><span class="t">11:30</span><span>オシンコシンの滝<span class="mv">🚗 約30分</span></span></li>
       <li><span class="t">12:15</span><span>ランチ：ウトロ漁港の食堂（ウニ丼など）</span></li>
       <li><span class="t">14:30</span><span><a href="https://www.google.com/maps/search/?api=1&query=知床五湖">知床五湖</a>（高架木道・予約不要）<div class="note">7月はヒグマの活動期。地上の遊歩道はガイドツアーのみ</div></span></li>
-      <li><span class="t">15:50</span><span>ウトロの宿にチェックイン（予約済み）<div class="note">温泉でゆっくりできるよう、早めに宿へ</div></span></li>
+      <li><span class="t">15:50</span><span>ウトロの宿にチェックイン<div class="note">温泉でゆっくりできるよう、早めに宿へ</div></span></li>
     </ul>
-    <div class="lodge">宿泊：ウトロ（予約済み・素泊まり）</div>
+    <div class="lodge">宿泊：ウトロ（素泊まり）</div>
   </div>
 
   <div class="panel" data-p="3">
@@ -154,15 +154,15 @@
     <div class="sun">日の入り 18:58</div>
     <ul class="tl">
       <li><span class="t">8:15</span><span>チェックアウト・出発（全員）<span class="mv">🚗 約45分</span></span></li>
-      <li class="must"><span class="t">9:00</span><span>カムイワッカ湯の滝のぼり（予約済み）<div class="warn">受付は9:00〜10:00。ウォーターシューズと水着が必要</div><div class="note">夏はマイカー規制の期間あり。アクセス方法は前日に公式情報で確認</div></span></li>
+      <li class="must"><span class="t">9:00</span><span>カムイワッカ湯の滝のぼり<div class="warn">受付は9:00〜10:00。ウォーターシューズと水着が必要</div><div class="note">夏はマイカー規制の期間あり。アクセス方法は前日に公式情報で確認</div></span></li>
       <li><span class="t">11:15</span><span>知床峠 展望台</span></li>
-      <li class="must"><span class="t">12:00</span><span>羅臼でクジラのクルーズ受付（予約済み）<div class="warn">12:00までに受付。酔い止めは乗船30分前に</div></span></li>
+      <li class="must"><span class="t">12:00</span><span>羅臼でクジラのクルーズ受付<div class="warn">12:00までに受付。酔い止めは乗船30分前に</div></span></li>
       <li><span class="t">15:30</span><span>遅めのランチ：道の駅 知床・らうす</span></li>
       <li class="must"><span class="t">17:30</span><span><a href="https://www.google.com/maps/search/?api=1&query=野付半島ネイチャーセンター">野付半島</a>で夕焼け<span class="mv">🚗 約1時間10分</span><div class="warn">日の入り18:58。虫除けスプレー必須</div></span></li>
-      <li><span class="t">19:50</span><span>標津の宿にチェックイン（予約済み）</span></li>
+      <li><span class="t">19:50</span><span>標津の宿にチェックイン</span></li>
       <li><span class="t">20:15</span><span>夕食：郷土料理（鮭しゃぶ）<div class="note">土曜は混むので予約がおすすめ</div></span></li>
     </ul>
-    <div class="lodge">宿泊：標津町（予約済み・素泊まり）</div>
+    <div class="lodge">宿泊：標津町（素泊まり）</div>
   </div>
 
   <div class="panel" data-p="4">
@@ -177,9 +177,9 @@
       <li><span class="t">14:40</span><span>納沙布岬（北海道の最東端）</span></li>
       <li><span class="t">16:10</span><span>早めの夕食：エスカロップ（根室のご当地グルメ）</span></li>
       <li class="must"><span class="t">17:30</span><span>春国岱で夕焼け<div class="warn">日の入り18:55頃。満潮・無風だと水面が鏡のようになる。潮位表を前日に確認</div></span></li>
-      <li class="must"><span class="t">19:45</span><span>根室市内の宿にチェックイン（予約済み）<span class="mv">🚗 約20分</span><div class="warn">チェックインは20時まで。遅れそうなら宿に電話</div></span></li>
+      <li class="must"><span class="t">19:45</span><span>根室市内の宿にチェックイン<span class="mv">🚗 約20分</span><div class="warn">チェックインは20時まで。遅れそうなら宿に電話</div></span></li>
     </ul>
-    <div class="lodge">宿泊：根室市内（予約済み・素泊まり）</div>
+    <div class="lodge">宿泊：根室市内（素泊まり）</div>
   </div>
 
   <div class="panel" data-p="5">
@@ -190,7 +190,7 @@
       <li><span class="t">9:00</span><span>道の駅 スワン44ねむろ（お土産）<div class="note">営業時間は前日に公式サイトで確認</div></span></li>
       <li><span class="t">11:00</span><span>中標津でチーズ・乳製品のお土産<span class="mv">🚗 約1時間25分</span></span></li>
       <li class="must"><span class="t">12:10</span><span>中標津空港でレンタカー返却<div class="warn">ガソリンを満タンにしてから返却</div></span></li>
-      <li class="must"><span class="t">14:50</span><span>根室中標津空港 発（予約済みの便）</span></li>
+      <li class="must"><span class="t">14:50</span><span>根室中標津空港 発</span></li>
       <li><span class="t">16:45</span><span>羽田空港 着・解散</span></li>
     </ul>
   </div>
@@ -201,7 +201,7 @@
       <div class="card">
         <table>
           <tr><td>レンタカー5日・ガソリン（4人で割る）</td><td>約15,000円</td></tr>
-          <tr><td>宿 4泊（予約済みの金額で計算）</td><td>約25,000円</td></tr>
+          <tr><td>宿 4泊（素泊まりの目安）</td><td>約25,000円</td></tr>
           <tr><td>カムイワッカ・クルーズ</td><td>約12,000円</td></tr>
           <tr><td>食事</td><td>約15,000円</td></tr>
           <tr class="total"><td>合計（飛行機を除く）</td><td>約6.7万円</td></tr>
@@ -213,14 +213,15 @@
       <h2>予約が必要なもの</h2>
       <div class="card">
         <table class="res">
-          <tr><td>飛行機（往復）</td><td class="ok">予約済み</td></tr>
-          <tr><td>レンタカー（5日間）</td><td class="ok">予約済み</td></tr>
-          <tr><td>宿 4泊</td><td class="ok">予約済み</td></tr>
-          <tr><td>カムイワッカ湯の滝のぼり</td><td class="ok">予約済み</td></tr>
-          <tr><td>羅臼のクルーズ</td><td class="ok">予約済み</td></tr>
+          <tr><td>飛行機（往復）</td><td class="todo">早めに（夏休みは混雑）</td></tr>
+          <tr><td>レンタカー（5日間）</td><td class="todo">1か月前までに</td></tr>
+          <tr><td>宿 4泊</td><td class="todo">1〜2か月前までに</td></tr>
+          <tr><td>カムイワッカ湯の滝のぼり</td><td class="todo">2週間前までに</td></tr>
+          <tr><td>羅臼のクルーズ</td><td class="todo">2週間前までに</td></tr>
           <tr><td>1日目の寿司（4名）</td><td class="todo">1週間前までに</td></tr>
           <tr><td>3日目の鮭しゃぶ（4名）</td><td class="todo">1週間前までに</td></tr>
         </table>
+        <p class="small">締切は見本の目安です。実際の行程表では、作成時点の公式情報をもとに書きます。</p>
       </div>
     </div>
   </div>
