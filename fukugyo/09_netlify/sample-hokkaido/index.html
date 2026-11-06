@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>北海道・道東 4泊5日｜行程表（見本）</title>
+<style>
+  :root{
+    --navy:#1d5f8f; --navy-d:#123f61; --ink:#1f2a33; --soft:#5f6b74; --line:#d6e2eb; --bg:#f3f8fb;
+    --red:#c8372a; --red-bg:#fbe5e1; --green:#2f8f6f; --sand:#eef4f9;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Zen Kaku Gothic New","IPAGothic",sans-serif;font-size:16px;line-height:1.6;color:var(--ink);background:var(--bg)}
+  a{color:var(--navy)}
+  .wrap{max-width:820px;margin:0 auto;padding:16px 16px 64px}
+  .hero{position:relative;border-radius:18px;overflow:hidden;color:#fff;padding:32px 22px 26px;background:linear-gradient(170deg,#123f61,#1d5f8f 60%,#4f9cc9)}
+  .hero .tag{display:inline-block;font-size:12px;font-weight:700;background:rgba(255,255,255,.2);padding:2px 10px;border-radius:999px}
+  .hero h1{margin:10px 0 4px;font-size:clamp(24px,6vw,32px);line-height:1.25}
+  .hero p{margin:0;opacity:.92;font-size:14px}
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:16px}
+  .fact{background:rgba(255,255,255,.14);border-radius:10px;padding:8px 10px;font-size:12px}
+  .fact b{display:block;font-size:15px}
+  @media(max-width:560px){.facts{grid-template-columns:repeat(2,1fr)}}
+  h2{font-size:19px;margin:30px 0 12px;display:flex;align-items:center;gap:8px}
+  h2::before{content:"";width:6px;height:20px;border-radius:3px;background:var(--navy)}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+  .wish{display:grid;grid-template-columns:1fr;gap:10px}
+  .wish .row{display:grid;grid-template-columns:110px 1fr;gap:10px;padding:10px 0;border-bottom:1px dashed var(--line)}
+  .wish .row:last-child{border-bottom:none}
+  .wish .who{font-weight:700}
+  .wish .want{color:var(--soft);font-size:14px}
+  .wish .done{font-size:15px}
+  .wish .done::before{content:"✓ ";color:var(--green);font-weight:700}
+  .wish .anon .who{color:var(--navy)}
+  .days{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+  @media(max-width:560px){.days{grid-template-columns:repeat(3,1fr)}}
+  .day-btn{font-family:inherit;text-align:left;background:#fff;border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:12px;padding:10px;cursor:pointer;min-height:44px}
+  .day-btn .n{font-size:11px;font-weight:700;color:var(--soft)}
+  .day-btn .d{font-weight:700;font-size:14px}
+  .day-btn .p{font-size:12px;color:var(--soft)}
+  .day-btn.on{background:var(--navy);color:#fff;border-top-color:#9fd0ee}
+  .day-btn.on .n,.day-btn.on .p{color:#dbeaf5}
+  .panel{display:none;margin-top:12px;background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);border-radius:14px;padding:18px}
+  .panel.on{display:block}
+  .panel h3{margin:0;color:var(--navy);font-size:18px}
+  .panel .sub{color:var(--soft);font-size:13.5px;margin:2px 0 12px}
+  .sun{font-size:13px;background:var(--sand);border-radius:8px;padding:6px 10px;margin-bottom:10px}
+  ul.tl{list-style:none;margin:0;padding:0}
+  ul.tl li{display:grid;grid-template-columns:58px 1fr;gap:10px;padding:9px 0;border-bottom:1px dashed var(--line)}
+  ul.tl li:last-child{border-bottom:none}
+  .t{font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
+  li.must .t{color:#0b2a4a;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+  .opt{display:inline-block;font-size:11px;font-weight:700;color:var(--soft);border:1px solid var(--line);border-radius:4px;padding:0 5px;margin-left:4px}
+  .mv{display:block;font-size:13px;color:var(--soft)}
+  .note{margin-top:5px;padding:6px 9px;border-radius:7px;font-size:13.5px;background:var(--sand);border-left:3px solid var(--soft)}
+  .warn{margin-top:5px;padding:6px 9px;border-radius:7px;font-size:13.5px;font-weight:700;background:#e3ecf5;color:#0b2a4a;border-left:3px solid #0b2a4a}
+  .lodge{margin-top:12px;padding:10px 12px;background:var(--sand);border-left:4px solid var(--navy);border-radius:8px;font-size:14px;font-weight:700}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:640px){.grid2{grid-template-columns:1fr}}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  td,th{padding:7px 4px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  td:last-child{text-align:right;white-space:nowrap}
+  tr.total td{font-weight:700;border-top:2px solid var(--ink)}
+  .res td:last-child{font-weight:700}
+  .ok{color:var(--green)} .todo{color:#0b2a4a;font-weight:700}
+  .pack label{display:flex;gap:8px;align-items:flex-start;padding:4px 0;font-size:14.5px;cursor:pointer}
+  .pack input{width:17px;height:17px;margin-top:3px;accent-color:var(--navy)}
+  .pack label.chk span{text-decoration:line-through;color:var(--soft)}
+  .small{font-size:12.5px;color:var(--soft)}
+  footer{margin-top:36px;text-align:center;font-size:12.5px;color:var(--soft)}
+  @media print{
+    body{background:#fff}
+    .days{display:none}
+    .panel{display:block!important;break-inside:auto;page-break-before:auto}
+    .hero{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <span class="tag">見本 ｜ 実際に作った行程をもとに、人数や希望を設定</span>
+    <h1>北海道・道東 4泊5日<br>友人4人旅</h1>
+    <p>摩周湖、知床、野付半島、根室。絶景とご当地グルメを、4人それぞれの「楽しみ」で組み立てました。</p>
+    <div class="facts">
+      <div class="fact">日程<b>7月・4泊5日</b></div>
+      <div class="fact">人数<b>4名（20代）</b></div>
+      <div class="fact">移動<b>レンタカー1台</b></div>
+      <div class="fact">発着<b>羽田・中標津</b></div>
+    </div>
+  </div>
+
+  <h2>この旅のポイント</h2>
+  <div class="card" style="font-size:15px">
+    <ul style="margin:0;padding-left:18px">
+      <li>絶景は夕焼けの時間に合わせて（美幌峠・野付半島・春国岱）</li>
+      <li>4日間で4つのご当地の味（寿司、ウニ丼、鮭しゃぶ、エスカロップ）</li>
+      <li>体験は2つ（カムイワッカ湯の滝のぼり・羅臼のクジラのクルーズ）</li>
+      <li>早朝の撮影は希望者だけの「任意」。全員の出発は毎日8時以降</li>
+    </ul>
+  </div>
+
+  <h2>日ごとの行程</h2>
+  <p class="small" style="margin:-4px 0 10px">「予約済み」は、幹事さんが予約したものです。<span style="font-weight:700;text-decoration:underline">下線の時刻</span>は、遅れると次の予定に響く時刻です。</p>
+  <div class="days" id="days">
+    <button class="day-btn on" data-d="1"><div class="n">DAY 1</div><div class="d">7/16(木)</div><div class="p">摩周湖・美幌峠</div></button>
+    <button class="day-btn" data-d="2"><div class="n">DAY 2</div><div class="d">7/17(金)</div><div class="p">神の子池・知床</div></button>
+    <button class="day-btn" data-d="3"><div class="n">DAY 3</div><div class="d">7/18(土)</div><div class="p">カムイワッカ・羅臼</div></button>
+    <button class="day-btn" data-d="4"><div class="n">DAY 4</div><div class="d">7/19(日)</div><div class="p">春国岱・根室</div></button>
+    <button class="day-btn" data-d="5"><div class="n">DAY 5</div><div class="d">7/20(月)</div><div class="p">お土産・帰路</div></button>
+  </div>
+
+  <div class="panel on" data-p="1">
+    <h3>DAY 1 ｜ 7/16(木)</h3>
+    <div class="sub">羽田 → 中標津空港 → 摩周湖 → 川湯温泉 → 美幌峠</div>
+    <div class="sun">日の入り 19:04 ／ 夕焼けは18:30〜19:30が見頃</div>
+    <ul class="tl">
+      <li class="must"><span class="t">12:30</span><span>羽田空港 発（予約済みの便）<div class="note">出発前に空港でランチ。機内持ち込みの荷物は前日に確認</div></span></li>
+      <li><span class="t">14:10</span><span>根室中標津空港 着</span></li>
+      <li><span class="t">14:50</span><span>レンタカーを受け取って出発</span></li>
+      <li><span class="t">16:00</span><span><a href="https://www.google.com/maps/search/?api=1&query=摩周湖第一展望台">摩周湖 第1展望台</a><span class="mv">🚗 約1時間10分</span><div class="note">午後の光で湖のコバルトブルーがいちばん鮮やか</div></span></li>
+      <li><span class="t">16:20</span><span><a href="https://www.google.com/maps/search/?api=1&query=摩周湖第三展望台">摩周湖 第3展望台</a><span class="mv">🚗 約5分</span></span></li>
+      <li><span class="t">17:10</span><span>川湯温泉の宿にチェックイン（予約済み）<span class="mv">🚗 約30分</span></span></li>
+      <li class="must"><span class="t">18:15</span><span><a href="https://www.google.com/maps/search/?api=1&query=美幌峠">美幌峠</a>で夕焼け<span class="mv">🚗 約45分</span><div class="warn">日の入り19:04。18:30までに展望台へ</div></span></li>
+      <li><span class="t">20:30</span><span>夕食：寿司<div class="note">要予約（4名）。満席の場合のスープカレーの候補も記載</div></span></li>
+      <li><span class="t">22:30</span><span>星空を見る <span class="opt">任意</span><div class="note">月の明るさと天気を見て当日判断</div></span></li>
+    </ul>
+    <div class="lodge">宿泊：川湯温泉（予約済み・素泊まり）</div>
+  </div>
+
+  <div class="panel" data-p="2">
+    <h3>DAY 2 ｜ 7/17(金)</h3>
+    <div class="sub">神の子池 → 天に続く道 → オシンコシンの滝 → 知床五湖 → ウトロ</div>
+    <div class="sun">日の出 3:56 ／ 早朝の摩周湖は希望者のみ</div>
+    <ul class="tl">
+      <li><span class="t">3:10</span><span>摩周湖で朝霧を見る <span class="opt">任意</span><div class="note">前夜に霧の予報を見て判断。行かない人は宿で休む</div></span></li>
+      <li class="must"><span class="t">8:30</span><span>川湯温泉 出発（全員）<span class="mv">🚗 約40分</span></span></li>
+      <li><span class="t">9:10</span><span><a href="https://www.google.com/maps/search/?api=1&query=神の子池">神の子池</a><div class="note">底の倒木まで透けて見える青い池。午前の光がきれい</div></span></li>
+      <li><span class="t">10:40</span><span><a href="https://www.google.com/maps/search/?api=1&query=天に続く道">天に続く道</a><span class="mv">🚗 約50分</span></span></li>
+      <li><span class="t">11:30</span><span>オシンコシンの滝<span class="mv">🚗 約30分</span></span></li>
+      <li><span class="t">12:15</span><span>ランチ：ウトロ漁港の食堂（ウニ丼など）</span></li>
+      <li><span class="t">14:30</span><span><a href="https://www.google.com/maps/search/?api=1&query=知床五湖">知床五湖</a>（高架木道・予約不要）<div class="note">7月はヒグマの活動期。地上の遊歩道はガイドツアーのみ</div></span></li>
+      <li><span class="t">15:50</span><span>ウトロの宿にチェックイン（予約済み）<div class="note">温泉でゆっくりできるよう、早めに宿へ</div></span></li>
+    </ul>
+    <div class="lodge">宿泊：ウトロ（予約済み・素泊まり）</div>
+  </div>
+
+  <div class="panel" data-p="3">
+    <h3>DAY 3 ｜ 7/18(土)</h3>
+    <div class="sub">カムイワッカ湯の滝 → 知床峠 → 羅臼クルーズ → 野付半島</div>
+    <div class="sun">日の入り 18:58</div>
+    <ul class="tl">
+      <li><span class="t">8:15</span><span>チェックアウト・出発（全員）<span class="mv">🚗 約45分</span></span></li>
+      <li class="must"><span class="t">9:00</span><span>カムイワッカ湯の滝のぼり（予約済み）<div class="warn">受付は9:00〜10:00。ウォーターシューズと水着が必要</div><div class="note">夏はマイカー規制の期間あり。アクセス方法は前日に公式情報で確認</div></span></li>
+      <li><span class="t">11:15</span><span>知床峠 展望台</span></li>
+      <li class="must"><span class="t">12:00</span><span>羅臼でクジラのクルーズ受付（予約済み）<div class="warn">12:00までに受付。酔い止めは乗船30分前に</div></span></li>
+      <li><span class="t">15:30</span><span>遅めのランチ：道の駅 知床・らうす</span></li>
+      <li class="must"><span class="t">17:30</span><span><a href="https://www.google.com/maps/search/?api=1&query=野付半島ネイチャーセンター">野付半島</a>で夕焼け<span class="mv">🚗 約1時間10分</span><div class="warn">日の入り18:58。虫除けスプレー必須</div></span></li>
+      <li><span class="t">19:50</span><span>標津の宿にチェックイン（予約済み）</span></li>
+      <li><span class="t">20:15</span><span>夕食：郷土料理（鮭しゃぶ）<div class="note">土曜は混むので予約がおすすめ</div></span></li>
+    </ul>
+    <div class="lodge">宿泊：標津町（予約済み・素泊まり）</div>
+  </div>
+
+  <div class="panel" data-p="4">
+    <h3>DAY 4 ｜ 7/19(日)</h3>
+    <div class="sub">春国岱 → 根室ランチ → 花咲灯台 → 納沙布岬 → 春国岱の夕焼け</div>
+    <div class="sun">日の入り 18:55頃</div>
+    <ul class="tl">
+      <li class="must"><span class="t">8:30</span><span>標津 出発（全員）<span class="mv">🚗 約55分</span></span></li>
+      <li><span class="t">9:25</span><span><a href="https://www.google.com/maps/search/?api=1&query=春国岱">春国岱</a>を散策（木道 約6km）</span></li>
+      <li><span class="t">12:20</span><span>ランチ：根室の回転寿司（花咲ガニなど）<div class="note">昼は待ち時間あり。12時台前半に入店</div></span></li>
+      <li><span class="t">13:35</span><span>花咲灯台・車石</span></li>
+      <li><span class="t">14:40</span><span>納沙布岬（北海道の最東端）</span></li>
+      <li><span class="t">16:10</span><span>早めの夕食：エスカロップ（根室のご当地グルメ）</span></li>
+      <li class="must"><span class="t">17:30</span><span>春国岱で夕焼け<div class="warn">日の入り18:55頃。満潮・無風だと水面が鏡のようになる。潮位表を前日に確認</div></span></li>
+      <li class="must"><span class="t">19:45</span><span>根室市内の宿にチェックイン（予約済み）<span class="mv">🚗 約20分</span><div class="warn">チェックインは20時まで。遅れそうなら宿に電話</div></span></li>
+    </ul>
+    <div class="lodge">宿泊：根室市内（予約済み・素泊まり）</div>
+  </div>
+
+  <div class="panel" data-p="5">
+    <h3>DAY 5 ｜ 7/20(月)</h3>
+    <div class="sub">道の駅 → 中標津でお土産 → 中標津空港 → 羽田</div>
+    <ul class="tl">
+      <li><span class="t">8:30</span><span>チェックアウト</span></li>
+      <li><span class="t">9:00</span><span>道の駅 スワン44ねむろ（お土産）<div class="note">営業時間は前日に公式サイトで確認</div></span></li>
+      <li><span class="t">11:00</span><span>中標津でチーズ・乳製品のお土産<span class="mv">🚗 約1時間25分</span></span></li>
+      <li class="must"><span class="t">12:10</span><span>中標津空港でレンタカー返却<div class="warn">ガソリンを満タンにしてから返却</div></span></li>
+      <li class="must"><span class="t">14:50</span><span>根室中標津空港 発（予約済みの便）</span></li>
+      <li><span class="t">16:45</span><span>羽田空港 着・解散</span></li>
+    </ul>
+  </div>
+
+  <div class="grid2">
+    <div>
+      <h2>費用の目安（1人あたり）</h2>
+      <div class="card">
+        <table>
+          <tr><td>レンタカー5日・ガソリン（4人で割る）</td><td>約15,000円</td></tr>
+          <tr><td>宿 4泊（予約済みの金額で計算）</td><td>約25,000円</td></tr>
+          <tr><td>カムイワッカ・クルーズ</td><td>約12,000円</td></tr>
+          <tr><td>食事</td><td>約15,000円</td></tr>
+          <tr class="total"><td>合計（飛行機を除く）</td><td>約6.7万円</td></tr>
+        </table>
+        <p class="small">見本のため金額は目安です。実際の行程表では、作成時点の公式情報で計算します。</p>
+      </div>
+    </div>
+    <div>
+      <h2>予約が必要なもの</h2>
+      <div class="card">
+        <table class="res">
+          <tr><td>飛行機（往復）</td><td class="ok">予約済み</td></tr>
+          <tr><td>レンタカー（5日間）</td><td class="ok">予約済み</td></tr>
+          <tr><td>宿 4泊</td><td class="ok">予約済み</td></tr>
+          <tr><td>カムイワッカ湯の滝のぼり</td><td class="ok">予約済み</td></tr>
+          <tr><td>羅臼のクルーズ</td><td class="ok">予約済み</td></tr>
+          <tr><td>1日目の寿司（4名）</td><td class="todo">1週間前までに</td></tr>
+          <tr><td>3日目の鮭しゃぶ（4名）</td><td class="todo">1週間前までに</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div>
+      <h2>持ち物チェック</h2>
+      <div class="card pack" id="pack">
+        <label><input type="checkbox"><span>ウォーターシューズ・水着（カムイワッカ）</span></label>
+        <label><input type="checkbox"><span>酔い止め（クルーズ）</span></label>
+        <label><input type="checkbox"><span>虫除けスプレー（野付半島）</span></label>
+        <label><input type="checkbox"><span>長袖・羽織るもの（7月でも朝夕は15℃前後）</span></label>
+        <label><input type="checkbox"><span>クマ鈴</span></label>
+      </div>
+    </div>
+    <div>
+      <h2>雨の日の代わりの案</h2>
+      <div class="card">
+        <ul style="margin:0;padding-left:18px;font-size:14.5px">
+          <li>2日目が雨：知床五湖を短縮し、知床の自然センターで映像展示を見る</li>
+          <li>3日目にクルーズが欠航：羅臼の道の駅と温泉でゆっくり</li>
+          <li>夕焼けが見られない日：早めに宿に入り、夕食をゆっくり</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <h2>Googleマップ</h2>
+  <div class="card" style="font-size:14.5px">行き先をすべて1つのリストにまとめてお渡しします（見本のため省略）。場所名をタップすると、そのままナビになります。</div>
+
+  <h2>この行程表について</h2>
+  <div class="card" style="font-size:14px">
+    <ul style="margin:0;padding-left:18px">
+      <li>最終更新：7月10日（修正すると、このURLのまま最新版に変わります）</li>
+      <li>公開停止：8月19日（旅行の30日後）。残したい場合はPDFを保存してください</li>
+      <li>電波のない場所でも見られるよう、出発前にPDFを各自のスマホに保存しておくと安心です</li>
+      <li>URLはグループの外に転送しないでください</li>
+    </ul>
+  </div>
+
+  <footer>旅程デザイナーYui ｜ この行程表は見本です</footer>
+</div>
+<script>
+  const btns=document.querySelectorAll('.day-btn'), panels=document.querySelectorAll('.panel');
+  btns.forEach(b=>b.addEventListener('click',()=>{
+    btns.forEach(x=>x.classList.toggle('on',x===b));
+    panels.forEach(p=>p.classList.toggle('on',p.dataset.p===b.dataset.d));
+  }));
+  document.querySelectorAll('#pack input').forEach(i=>i.addEventListener('change',()=>i.parentElement.classList.toggle('chk',i.checked)));
+</script>
+</body>
+</html>
