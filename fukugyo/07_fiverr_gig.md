@@ -99,7 +99,8 @@ Already have a Japan plan, or starting from scratch? I'll help you make it work 
 - Gig 2を公開したら、FAQ「I don't have an itinerary yet」をGig 2への案内に差し替える
 
 ## 注意
-- 納品は必ずPDFを添付する
+- 納品は必ずPDFを添付する。Web版は作らない（規約がはっきりせず、時給も下がるため。2026-11-08決定）。PDFには各スポットのGoogleマップのリンクを入れる
+- Web版はGig 2の設計時に、Fiverrサポートへ「注文の納品物として非公開のWebページのURLを渡してよいか」を問い合わせてから検討する
 - 同時に受ける注文は1件まで（ココナラで注文が入ったらFiverrを休止モードにする。逆も同じ）
 - 返信は昼休みと夜にスマホのアプリで行う
 - 既存の3つのGigは一時停止のまま。下書き中のグループ向けGigは、この内容で上書きする
