@@ -90,8 +90,8 @@ This service checks an existing plan, even a rough one. If you only have a list 
 4. Who's traveling (number of people, kids' ages, anyone who can't walk far), what you enjoy most (food, nature, history, shopping...) and any foods you avoid. This helps me choose your local picks.（必須）
 5. Anything that worries you about this plan, or anything else I should know.（任意）
 
-## プロフィール（Fiverr用の自己紹介・上限600字）
-Hi, I'm Yui, and Wander Japan is my travel service here. I'm Japanese, based near Tokyo, and I check Japan itineraries, including ones made with AI, against Japanese timetables and the review sites locals actually use. By day I manage web projects, so turning loose plans into clear, workable ones is what I do. I plan my own trips the same way, from Yakushima to eastern Hokkaido, with real travel times for every step. I studied and worked in Canada, so I know what it's like to find your way in a new country. I reply at lunchtime and in the evening, Japan time.
+## プロフィール（Fiverr用の自己紹介・上限600字。Gig 1・Gig 2共通）
+Already have a Japan plan, or starting from scratch? I'll help you make it work on the ground. I'm Yui, a Japanese traveler based near Tokyo. I check every step against Japanese timetables, local reviews and details often published only in Japanese. I plan my own trips the same way, from famous sights to hidden local spots. By day I manage web projects, so turning loose ideas into clear, workable plans is my everyday job. Having studied and worked in Canada, I know what it's like to find your way in a new country. I reply at lunchtime and in the evening, Japan time.
 
 ## Gig gallery（画像3枚：1280×769、PDF2つまで）
 - 後で作る。1枚目は「Before / After」（AIの行程の問題箇所 → 直した行程）を主役にする案
