@@ -48,12 +48,12 @@ Only have a rough list? Message me first.
 | 泊数（画面の項目） | 4 | 9 | 13 |
 | Custom planning | ✓ | ✓ | ✓ |
 | Map included | ✘ | ✘ | ✘ |
-| Destinations | 5 | 9 | 13 |
+| Destinations | 5 | 9 | 10（画面の上限が10） |
 | Booking / Budget | ✘ | ✘ | ✘ |
 
 - Extrasは最初は付けない。15日以上の旅行はメッセージで相談→カスタムオファー。1件目の後に「追加の修正 $15」だけ足すのを検討
 - 作業時間の目安：Basic 約4.5時間（時給 約$8）、Standard 約7.5時間（約$9）、Premium 約10.7時間（約$10）。レビュー5件後の値上げで時給$11〜13
-- 「Destinations」の意味と、Booking/Budgetを✘にしたとき「予約リストなし」と誤解されないかは、入力画面で確認する
+- 入力画面で確認済み（2026-11-08）：Destinations＝「旅行中に訪れる行き先の数」（上限10）。Booking/Budgetの項目名は「Booking services (hotels, rental car etc.)」「Budget planning」で、予約リストとは別物と読める。Include maps＝「旅行の地図を提供する」（✘のまま）。購入後の質問の回答形式は「Free text／Multiple choice／Attachment」から1つしか選べないため、1問目はFree textにした（添付はメッセージで受け取れる）
 
 ## FAQ（回答は各300字以内）
 **What format can my itinerary be in?**
