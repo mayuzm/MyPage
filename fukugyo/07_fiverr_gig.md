@@ -1,4 +1,6 @@
-# ⑦ Fiverr Gig 1（v7：AIで作った行程を日本語の情報で良くする・英語）
+# ⑦ Fiverr Gig 1（2026-11-08 公開：http://www.fiverr.com/s/2pQea3X）
+
+プロフィールの一言紹介：Japan itineraries, built or checked using Japanese language sources
 
 北海道・離島・自然に特化した「一から作る」Gig 2は、このGigの公開2〜3週間後に別で出す。
 

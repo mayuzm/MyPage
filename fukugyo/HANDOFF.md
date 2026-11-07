@@ -45,8 +45,8 @@ Fiverrの方針を見直し、Gigを2本に分けることに決定（`10_fiverr
 - Gig 1：AIなどで作った日本の行程を、日本語の情報（公式時刻表・日本の口コミ）で見直す。タイトル「I will review your Japan itinerary and catch what AI misses, using Japanese sources」と説明文は承認済み
 - Gig 2：北海道・離島・自然の行程を一から作る高単価。Gig 1公開の2〜3週間後に出す（レビューは待たない）
 
-1. **ユーザーの承認待ち**：`11_approval_gig1.md`（プランと価格、FAQ、購入後の質問、プロフィール、英語の見本、ギャラリー画像）。すべて専門家役のサブエージェントのレビュー済み
-2. 承認後：Fiverrの下書き（グループ向け）をGig 1の内容で上書きし、プロフィールを差し替えて公開（Chromeのサイドパネルに任せられる）
+1. **Gig 1は2026-11-08に公開済み**：http://www.fiverr.com/s/2pQea3X （URLの文字列は旧下書きのまま）。プロフィールの自己紹介と一言紹介「Japan itineraries, built or checked using Japanese language sources」も差し替え済み（一言紹介はハイフン不可のため Japanese language に）
+2. 公開後の確認：2週間で表示100・クリック5（2026-11-22ごろ）。Fiverrの注文上限を1にする設定、ココナラとの同時受注の扱いは未設定
 3. Gig 2の設計（道東の見本 `04_sample_itinerary/web_hokkaido.html` を流用）
 4. GitHubへのプッシュ：ローカルにログイン情報がなく、未プッシュのコミットがたまっている
 5. Note記事は後回し
