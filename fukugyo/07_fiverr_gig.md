@@ -26,7 +26,7 @@ I'm Japanese, based near Tokyo, and I've traveled widely across Japan, from big 
 WHAT YOU GET
 - Timing check: train, bus and drive times checked against official timetables
 - Food check: your restaurants checked on Japanese sites (ratings, closed days, cash-only), with nearby alternatives
-- Local picks: lesser-known places Japanese travelers love (3/6/10 by package)
+- Local picks: lesser-known places to add, food or sights, that locals love (3/6/10 by package)
 - A booking list with deadlines
 - Your updated itinerary as a PDF (sample in the gallery)
 
@@ -63,7 +63,7 @@ Anything works: typed notes, a spreadsheet, screenshots, or a plan from ChatGPT 
 No. I keep what works and change only what doesn't, with a short reason for each change. If your plan is already solid, I'll tell you so and spend the time on local picks and smaller fixes.
 
 **Do you book or recommend hotels and trains?**
-No. I don't make bookings or calls, and I don't choose hotels, trains or tours. I check that what you've chosen fits together. If something doesn't, I'll tell you what kind of transport works and roughly when, so you can choose and book it yourself.
+No. I don't make bookings or calls, and I don't choose specific hotels, trains or tours. I check that what you've chosen fits together. If something doesn't, I'll tell you what kind of transport works and roughly when, so you can choose and book it yourself.
 
 **I'm renting a car. Can you check driving routes?**
 Yes. I check driving times, seasonal road closures, and whether you'll be driving after dark, which matters a lot in snowy regions in winter.
@@ -72,7 +72,7 @@ Yes. I check driving times, seasonal road closures, and whether you'll be drivin
 I use the timetables that are current when I deliver. Japan's railways revise schedules every March, and rural buses can change by season, so please recheck times about a week before you travel.
 
 **How many restaurants do you check?**
-Up to 2 per day of your trip, usually lunch and dinner. I check Japanese review sites, closed days and payment, and suggest a nearby alternative when one is clearly better.
+Up to 2 per day of your trip, usually lunch and dinner. I check Japanese review sites, closed days and payment, and suggest a nearby alternative when one is clearly better. Local picks are separate: extra places (food or sights) I add to your plan.
 
 **How do revisions work?**
 Basic and Standard include 1 revision, Premium includes 2. Tell me what to change within the same trip, and I'll update the itinerary and recheck the affected times. New dates or extra days count as a new order.
