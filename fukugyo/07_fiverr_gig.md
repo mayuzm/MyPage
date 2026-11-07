@@ -1,6 +1,6 @@
 # ⑦ Fiverr Gig 1（2026-11-08 公開：http://www.fiverr.com/s/2pQea3X）
 
-プロフィールの一言紹介：Japan itineraries, built or checked using Japanese language sources
+プロフィールの一言紹介：Japan itineraries, built or checked in Japanese（2026-11-08 承認。反映待ち）
 
 北海道・離島・自然に特化した「一から作る」Gig 2は、このGigの公開2〜3週間後に別で出す。
 
@@ -59,7 +59,7 @@ Only have a rough list? Message me first.
 
 ## FAQ（回答は各300字以内）
 **What format can my itinerary be in?**
-Anything works: typed notes, a spreadsheet, screenshots, or a plan from ChatGPT or another AI tool. Just paste it or attach the file here on Fiverr.
+Anything works: typed notes, a spreadsheet, screenshots, or a plan from ChatGPT or another AI tool. Just paste it or attach the file here on Fiverr. Destinations means the cities or areas you stay in or visit. More than 10? Message me first.
 
 **Will you rewrite my whole plan?**
 No. I keep what works and change only what doesn't, with a short reason for each change. If your plan is already solid, I'll tell you so and spend the time on local picks and smaller fixes.
@@ -86,7 +86,8 @@ Ideally at least 3 weeks before your trip, since delivery takes 7 to 14 days. If
 This service checks an existing plan, even a rough one. If you only have a list of places, message me first.
 
 ## Requirements（購入後に聞く項目・各400字以内）
-1. Your itinerary: paste it here or attach the file. If it's a list of places rather than a day-by-day plan, please say so.（必須・テキスト＋添付）
+1. Your itinerary: paste it here, or write "attached" if you upload it in the next question. If it's a list of places rather than a day-by-day plan, please say so.（必須・Free text）
+1b. If your itinerary is a file (PDF, Word, spreadsheet or screenshots), upload it here.（任意・Attachment）
 2. Your travel dates, where you arrive in and leave Japan (airport or city), and your flight times if you know them.（必須）
 3. How you'll get around (rail pass, rental car, buses) and what's already booked (hotels, trains, tours). No need to share booking numbers or passport details.（必須）
 4. Who's traveling (number of people, kids' ages, anyone who can't walk far), what you enjoy most (food, nature, history, shopping...) and any foods you avoid. This helps me choose your local picks.（必須）
