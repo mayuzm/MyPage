@@ -46,7 +46,7 @@ Fiverrの方針を見直し、Gigを2本に分けることに決定（`10_fiverr
 - Gig 2：北海道・離島・自然の行程を一から作る高単価。Gig 1公開の2〜3週間後に出す（レビューは待たない）
 
 1. **Gig 1は2026-11-08に公開済み**：http://www.fiverr.com/s/2pQea3X （URLの文字列は旧下書きのまま）。プロフィールの自己紹介と一言紹介「Japan itineraries, built or checked using Japanese language sources」も差し替え済み（一言紹介はハイフン不可のため Japanese language に）
-2. 公開後の確認：2週間で表示100・クリック5（2026-11-22ごろ）。Fiverrの注文上限は1件に設定済み。ココナラで注文が入ったらFiverrのGigを一時停止する運用（逆も同じ）。旧Gig 3つ（custom japan itinerary／AI行程の修正／北海道の冬）は公開中のまま残す（2026-11-08 ユーザー判断）
+2. 公開後の確認：2週間で表示100・クリック5（2026-11-22ごろ）。Fiverrの注文上限は1件に設定済み。ココナラで注文が入ったらFiverrのGigを一時停止する運用（逆も同じ）。旧Gig（2026-11-08 専門家役レビュー→ユーザー承認）：A「custom japan itinerary」は削除、B「AI行程の修正」は一時停止（新Gigの予備）、C「北海道の冬」は一時停止（2〜3週間後に書き換えてGig 2として再公開）。新規出品者のGig上限は4件で、一時停止中も数に入る。11/22までは新Gigのタイトル・タグ・価格を何度も変えない
 3. Gig 2の設計（道東の見本 `04_sample_itinerary/web_hokkaido.html` を流用）
 4. GitHubへのプッシュ：ローカルにログイン情報がなく、未プッシュのコミットがたまっている
 5. Note記事は後回し
