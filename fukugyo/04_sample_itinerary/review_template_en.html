@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Itinerary Review | {{TRIP TITLE}}</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#1d3557;--navy-soft:#e8edf4;--ink:#1c2430;--soft:#5d6876;--line:#d8dde4;--amber:#a86a00;--amber-soft:#fbf1dc;--green:#2f6b4f;--green-soft:#e6f1ea;--bg:#eef0f3}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nunito",sans-serif;font-size:13px;line-height:1.55}
+  .page{width:794px;margin:0 auto 24px;background:#fff;padding:46px 52px 40px;position:relative}
+  @page{size:A4;margin:0}
+  @media print{body{background:#fff}.page{margin:0;width:auto}.newpage{break-before:page}}
+  tr,.row{break-inside:avoid}
+  h2,.dayhead{break-after:avoid}
+  .dayhead{font-size:17px;color:var(--navy);margin:20px 0 4px;display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--navy);padding-bottom:3px}
+  .dayhead span{font-size:11.5px;color:var(--soft);font-weight:700}
+  a{color:var(--navy)} .map{font-size:10.5px;font-weight:800;white-space:nowrap}
+  .kicker{color:var(--navy);font-weight:800;letter-spacing:.18em;font-size:11px}
+  h1{font-size:28px;margin:4px 0 2px;color:var(--navy)}
+  .lead{color:var(--soft);margin:0 0 16px}
+  h2{font-size:16px;margin:22px 0 8px;color:var(--navy);border-bottom:2px solid var(--navy);padding-bottom:4px}
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .fact{padding:9px 10px;border-right:1px solid var(--line)} .fact:last-child{border-right:none}
+  .fact b{display:block;font-size:10.5px;color:var(--soft);font-weight:700;letter-spacing:.05em}
+  .fact span{font-size:14px;font-weight:800}
+  .verdict{display:flex;gap:0;margin:14px 0 4px;border:1px solid var(--line)}
+  .verdict div{flex:1;padding:10px 12px;border-right:1px solid var(--line)} .verdict div:last-child{border-right:none}
+  .verdict strong{font-size:22px;display:block;line-height:1.1}
+  .k{color:var(--green)} .c{color:var(--amber)} .a{color:var(--navy)}
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  th,td{border-bottom:1px solid var(--line);padding:7px 7px;text-align:left;vertical-align:top}
+  th{background:var(--navy-soft);color:var(--navy);font-size:11px;font-weight:800}
+  .lbl{font-weight:900;font-size:10.5px;letter-spacing:.06em;white-space:nowrap}
+  .lbl.c{color:var(--amber)} .lbl.k{color:var(--green)} .lbl.a{color:var(--navy)}
+  .ai{color:var(--soft);font-style:italic}
+  .src{display:block;color:var(--soft);font-size:10.5px;margin-top:2px}
+  .foot{display:flex;justify-content:space-between;color:var(--soft);font-size:10.5px;border-top:1px solid var(--line);padding-top:8px;margin-top:24px}
+  .row{display:grid;grid-template-columns:70px 1fr;gap:12px;padding:7px 0;border-bottom:1px dashed var(--line)}
+  .time{font-weight:900;font-size:15px;text-align:right;color:var(--navy);font-variant-numeric:tabular-nums}
+  .what b{font-size:13.5px}
+  .what small{display:block;color:var(--soft);font-size:11.5px}
+  .flag{display:inline-block;font-size:10.5px;font-weight:800;color:var(--amber);background:var(--amber-soft);padding:0 6px;margin-left:4px}
+  .new{display:inline-block;font-size:10.5px;font-weight:800;color:var(--green);background:var(--green-soft);padding:0 6px;margin-left:4px}
+  .note{font-size:11px;color:var(--soft)}
+  ul{margin:4px 0 0;padding-left:18px} li{margin:3px 0}
+</style>
+</head>
+<body>
+<!--
+納品ひな形（Gig 1）。使い方：
+1. このファイルを ~/Documents/fukugyo_orders/注文番号/ に複製する（リポジトリには入れない）
+2. {{ }} を書き換え、不要な行は消す。行は必要なだけ複製する
+3. 地図リンク：https://www.google.com/maps/search/?api=1&query=スポット名（英語名＋地名。スペースは + に）
+4. Chromeで開き、印刷 → PDFに保存（用紙A4、余白なし、背景のグラフィックをオン、ヘッダーとフッターはオフ）。ファイル名は itinerary_review_注文番号.pdf
+-->
+
+<section class="page">
+  <div class="kicker">ITINERARY REVIEW</div>
+  <h1>{{TRIP TITLE e.g. Tokyo → Kyoto → Takayama}}</h1>
+  <p class="lead">Your plan, reviewed day by day with Japanese sources. Prepared for {{BUYER NAME}} on {{DATE}}.</p>
+
+  <div class="facts">
+    <div class="fact"><b>WHEN</b><span>{{DATES}}</span></div>
+    <div class="fact"><b>TRAVELERS</b><span>{{e.g. 2 adults}}</span></div>
+    <div class="fact"><b>GETTING AROUND</b><span>{{e.g. JR Pass + bus}}</span></div>
+    <div class="fact"><b>STAYING</b><span>{{bases, as booked}}</span></div>
+  </div>
+
+  <div class="verdict">
+    <div><strong class="k">{{N}} keep</strong>Works as planned</div>
+    <div><strong class="c">{{N}} change</strong>Would fail or waste time</div>
+    <div><strong class="a">{{N}} add</strong>Local picks for your style</div>
+  </div>
+
+  <h2>What I found</h2>
+  <table>
+    <tr><th style="width:70px"></th><th style="width:33%">Your plan said</th><th>What I found and what to do</th><th style="width:44px">Map</th></tr>
+    <!-- CHANGE：問題の理由と「手段と時間帯の目安」まで。特定の便・宿を選んで勧めない -->
+    <tr><td class="lbl c">CHANGE</td><td class="ai">{{Day X: what the plan said}}</td>
+      <td>{{What is wrong and why it matters.}} <b>{{What kind of fix works, and roughly when.}}</b><span class="src">Source: {{operator / official page (Japanese)}}</span></td>
+      <td><a class="map" href="https://www.google.com/maps/search/?api=1&query={{PLACE}}">Open</a></td></tr>
+    <tr><td class="lbl k">KEEP</td><td class="ai">{{Day X: what the plan said}}</td><td>{{Why it works, plus one practical tip.}}</td>
+      <td><a class="map" href="https://www.google.com/maps/search/?api=1&query={{PLACE}}">Open</a></td></tr>
+    <tr><td class="lbl a">ADD</td><td class="ai">—</td><td><b>{{Local pick}}</b>, {{why it fits this traveler, and when to go.}}</td>
+      <td><a class="map" href="https://www.google.com/maps/search/?api=1&query={{PLACE}}">Open</a></td></tr>
+  </table>
+
+  <div class="foot"><span>Wander Japan · Yui</span><span>Order {{ORDER NUMBER}}</span></div>
+</section>
+
+<section class="page newpage">
+  <div class="kicker">YOUR UPDATED PLAN</div>
+  <p class="lead">Times are from official timetables current on {{DATE CHECKED}}. Please recheck them about a week before you travel.</p>
+  <!-- 1日分のブロック（dayhead＋row）。日数分だけ続けて複製する。1日ごとに改ページしない -->
+  <div class="dayhead">Day {{N}} · {{Area → Area}}<span>Sunset {{16:45}}</span></div>
+  <div class="row"><div class="time">{{7:00}}</div><div class="what"><b>{{Place}}</b><span class="new">{{MOVED / LOCAL PICK / BETTER OPTION（任意）}}</span><small>{{Duration, tip, opening hours.}} <a class="map" href="https://www.google.com/maps/search/?api=1&query={{PLACE}}">Map</a></small></div></div>
+  <div class="row"><div class="time">{{8:30}}</div><div class="what"><b>{{From → To}}</b> ({{train / bus name}})<span class="flag">{{BOOK AHEAD / RESERVE（任意）}}</span><small>{{About X min. Transfer note.}}</small><small class="src">Source: {{operator timetable}}, checked {{DATE}}</small></div></div>
+  <!-- 車の区間：運転時間、季節の通行止め、日没後の運転がないかを書く -->
+
+  <div class="foot"><span>Wander Japan · Yui</span><span>Order {{ORDER NUMBER}}</span></div>
+</section>
+
+<section class="page newpage">
+  <div class="kicker">FOOD AND LOCAL PICKS</div>
+  <h2>Restaurants in your plan</h2>
+  <table>
+    <tr><th>Restaurant</th><th>On Japanese review sites</th><th>Closed / payment</th><th>Note</th></tr>
+    <!-- 1日2軒まで。評価は「賛否が分かれる」など中立的に。店を悪く断定しない -->
+    <tr><td>{{Name}} <a class="map" href="https://www.google.com/maps/search/?api=1&query={{PLACE}}">Map</a></td><td>{{e.g. well rated / mixed reviews}}</td><td>{{e.g. Closed Wed · cash only}}</td><td>{{e.g. nearby alternative}}</td></tr>
+  </table>
+
+  <h2>Your local picks</h2>
+  <table>
+    <tr><th>Place</th><th>Why it fits you</th><th>Best time</th></tr>
+    <tr><td><b>{{Name}}</b> <a class="map" href="https://www.google.com/maps/search/?api=1&query={{PLACE}}">Map</a></td><td>{{reason}}</td><td>{{when}}</td></tr>
+  </table>
+
+  <h2>Booking list</h2>
+  <table>
+    <tr><th>What</th><th>When to book</th><th>Note</th></tr>
+    <tr><td>{{e.g. Limited express seats}}</td><td>{{e.g. From 1 month before, 10:00}}</td><td>{{note}}</td></tr>
+  </table>
+
+  <p class="note" style="margin-top:14px">Your package includes {{1}} revision(s) within the same trip: just reply on Fiverr. I don't book anything or choose hotels. Schedules can change, so please recheck times about a week before you travel.</p>
+  <div class="foot"><span>Wander Japan · Yui</span><span>Order {{ORDER NUMBER}}</span></div>
+</section>
+
+</body>
+</html>
