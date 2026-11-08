@@ -1,6 +1,6 @@
-# 引き継ぎメモ（クラウド → ローカル）2026-11-07
+# 副業 引き継ぎメモ（最新：2026-11-08）
 
-新しいセッションは、最初にこのファイルと `00_README.md` を読むこと。
+新しいセッションは、最初にこのファイルを読むこと。ここが全体像の正本（`00_README.md` は11/7時点の古い情報を含む）。
 
 ## 目的と前提
 - ゴール：会社に頼らなくても生きていける証明（同じやり方で繰り返し稼げること）
@@ -11,47 +11,48 @@
 
 ## 作業ルール（ユーザーの指示）
 - お客様への価値提供を第一に考える（自分の経験談を中心にしすぎない）
-- 成果物は、出す前に毎回サブエージェントでレビューする（言われる前に）
+- 提案・決定・承認済み内容の変更は、毎回その分野に最適な専門家役のサブエージェントにレビューさせ、反映してから出す（画面の制約による小さな変更も同じ）
 - 1つずつ見せて、ユーザーが承認してから次へ
 - 返答は簡潔に。長い説明は不要
 - お客様向けの文章：ユーザーの指摘をそのまま書かない、誰が読んでも自然な表現にする。法律を気にしすぎて意図が伝わらない文章にしない
 - 旅行業法：予約・手配・代理、特定の宿や便を選んで勧めることはしない。泊まるエリアの目安、何時ごろ着けばいいかは書いてよい
 - 画像ルール：丸数字・角丸カード・均等グリッド禁止／1枚に主役1つ（ほかの2倍以上）／太字は見出し1か所／スマホのモックアップは見本の画像だけ／吹き出しは引き出し線で該当箇所へ／写真は主題として半分以上、文字は余白に／紺と白（赤は使わない）／AI感を出さない／画像に価格を入れない／ココナラアプリでは上下約118pxが切れ、左上・右上にボタン、左下にページ番号が重なる
 - ココナラ・Fiverrとも、外部ツール（Googleフォームなど）でお客様とやり取りしない
-- 変更したらコミットしてプッシュする（ブランチ `claude/fukugyo-coconala-drafts`）
+- 変更したらコミットしてプッシュする（ブランチ `claude/fukugyo-coconala-drafts`。このMacはghでGitHubにログイン済み）
+- お客様の行程・名前は公開リポジトリに入れない。作業フォルダは `~/Documents/fukugyo_orders/注文番号/`、注文完了の30日後に削除
 
 ## 経緯（要点）
 1. いくつもの副業案を検討し、「グループ旅行の幹事さん向けに行程表を作る」に決定
-2. ココナラに出品（11/5）→ 画像・本文を何度も改善
-3. 11/7、「Googleフォームなど外部ツールを使うやり取り」を理由に取り下げ
-4. メンバーへのアンケートをやめ、幹事さんとのやり取りだけの形（納期7日）にして再出品。公開を確認済み
-5. Fiverr：Chromeのサイドパネルで新Gigの下書き（ステップ1〜4）とプロフィール差し替えまで完了。ただしユーザーが「Fiverrは海外向けに高単価で、個人だからできる細かいプランニングを売る形に考え直したい」と判断し、いったん止めている
+2. ココナラに出品（11/5）→ 外部ツール（Googleフォーム）を理由に一度取り下げ（11/7）→ 幹事さんとのやり取りだけの形で再出品
+3. Fiverr：方針を見直し（11/7〜8）、Gigを2本に分けることに決定（`10_fiverr_strategy.md`）。Gig 1を11/8に公開
 
-## 現在地
-- ココナラ：公開中 https://coconala.com/services/4489293 （2,500円・モニター先着3件・納期7日・受付枠1）。出品文は `02_coconala_listing.md`（v3）と `02c_service_text_readable.txt`。画像は `05_thumbnails/cc_main → cc_sample → cc_flow → cc_items`（元データ `coconala_v5.html`）
-- プロフィール・幹事さんへの質問・メッセージテンプレ：`01_profile.md`（v3）、`03_hearing_sheet.md`（v4）、`06_message_templates.md`（v4）
-- Web版行程表：Netlify（wander japanアカウント）。日本語見本 https://trip-sample-doto.netlify.app/ （元データ `04_sample_itinerary/web_hokkaido.html`、Netlify用 `09_netlify/`）
-- Fiverr：新Gigの下書きあり（未公開・Galleryなし）。既存の3つのGigは一時停止のまま
-  - 下書き：https://www.fiverr.com/users/wander_japan/manage_gigs/create-a-detailed-japan-itinerary-for-your-family-or-group-trip/edit
-  - 既存Gig：①custom japan itinerary（表示1）②fix your AI/ChatGPT itinerary（表示41・クリック1）③Hokkaido winter（表示24・クリック2）。どれも宿・飲食店を具体的に勧める文面で、①は外部フォームを送る文面がある
-  - プロフィールは新しい文に差し替え済み（旧文は「nature photographer…quiet nature…Hokkaido and rural Japan」）
-  - 入力画面の上限：タイトル80字、プラン名35字、プラン説明100字、説明文1,200字、FAQ回答300字、Requirements400字、画像3枚（1280×769）、PDF2つ、動画1本
-  - 市場：「japan itinerary」129件、5〜80ドル。上位は75ドル・100件、70ドル・60件。グループ特化はなし
-- 週1振り返り：毎週土曜9:51（日本時間）に**クラウドのセッション**へ届く設定。ローカルに移るなら作り直す
-- 判定：2027-01-04までにどちらかで1件、2027-02-03までに同じお店で3件
+## 現在地（2026-11-08）
+### ココナラ（日本語・国内のグループ旅行）
+- 公開中 https://coconala.com/services/4489293 （2,500円・モニター先着3件・納期7日・受付枠1）。レビュー0件・受注0件
+- 出品文 `02_coconala_listing.md`／`02c_service_text_readable.txt`、プロフィール `01_profile.md`、幹事さんへの質問 `03_hearing_sheet.md`、メッセージテンプレ `06_message_templates.md`、画像 `05_thumbnails/cc_*.png`
+- 3件目の取引後に3,500円に上げる
 
-## 次にやること（2026-11-07 夜 更新・ローカルセッション）
-Fiverrの方針を見直し、Gigを2本に分けることに決定（`10_fiverr_strategy.md`）。
-- Gig 1：AIなどで作った日本の行程を、日本語の情報（公式時刻表・日本の口コミ）で見直す。タイトル「I will review your Japan itinerary and catch what AI misses, using Japanese sources」と説明文は承認済み
-- Gig 2：北海道・離島・自然の行程を一から作る高単価。Gig 1公開の2〜3週間後に出す（レビューは待たない）
+### Fiverr（英語・海外の旅行者、アカウント wander_japan）
+- **Gig 1（公開中）**：「I will review your Japan itinerary and catch what AI misses, using Japanese sources」 http://www.fiverr.com/s/2pQea3X
+  - AIなどで作った日本の行程を、日本語の情報（公式時刻表・日本の口コミ）で見直して、直した行程表PDFを納品
+  - Basic 5日$45／Standard 10日$85／Premium 14日$130、納期7/10/14日、修正1/1/2回、地元のおすすめ3/6/10か所。レビュー5件で$60/$110/$170に値上げ
+  - 正本：`07_fiverr_gig.md`（出品文・FAQ・質問・プロフィール）、方針 `10_fiverr_strategy.md`、画像 `05_thumbnails/fv2_*.png`、見本 `04_sample_itinerary/review_sample_en.pdf`
+  - 英語の定型文8種はFiverrに登録済み（`13_fiverr_message_templates.md`）。15日以上の旅行は$130＋1日$9、21日まで
+  - 作業手順と納品ひな形：`14_gig1_workflow.md`、`04_sample_itinerary/review_template_en.html`
+  - 注文上限1件。プロフィールの一言紹介「Japan itineraries, built or checked in Japanese」、自己紹介はGig 1・2共通
+- **旧Gig**：「custom japan itinerary」は削除、「AI行程の修正」は一時停止（予備）、「北海道の冬」は一時停止（Gig 2に書き換える）。新規出品者のGig上限は4件で、一時停止も数に入る
+- **Gig 2（未作成）**：北海道・離島・自然の行程を一から作る高単価（$90〜260）。11月下旬〜12月上旬に「北海道の冬」Gigを書き換えて公開。英語化より先に中身の設計から
 
-1. **Gig 1は2026-11-08に公開済み**：http://www.fiverr.com/s/2pQea3X （URLの文字列は旧下書きのまま）。プロフィールの自己紹介と一言紹介「Japan itineraries, built or checked using Japanese language sources」も差し替え済み（一言紹介はハイフン不可のため Japanese language に）
-2. 公開後の確認：2週間で表示100・クリック5（2026-11-22ごろ）。Fiverrの注文上限は1件に設定済み。ココナラで注文が入ったらFiverrはAvailability（不在設定）、Fiverrで注文が入ったらココナラは受付停止（詳しくは `14_gig1_workflow.md`）。英語の定型文8種はFiverrに登録済み（`13_fiverr_message_templates.md`）。旧Gig（2026-11-08 専門家役レビュー→ユーザー承認）：A「custom japan itinerary」は削除、B「AI行程の修正」は一時停止（新Gigの予備）、C「北海道の冬」は一時停止（2〜3週間後に書き換えてGig 2として再公開）。新規出品者のGig上限は4件で、一時停止中も数に入る。11/22までは新Gigのタイトル・タグ・価格を何度も変えない
-3. Gig 2の設計（道東の見本 `04_sample_itinerary/web_hokkaido.html` を流用）
-4. GitHubへのプッシュ：ローカルにログイン情報がなく、未プッシュのコミットがたまっている
+### 同時受注のルール
+- 同時に受けるのは1件まで。Fiverrで注文→ココナラを受付停止（再開はFiverrの注文完了後）。ココナラで注文→48時間以内に最初の連絡、FiverrはAvailability（不在設定）
+
+## 次にやること
+1. 11/11〜12ごろ：Gig 1の表示数が0のままでないか確認
+2. 11/22ごろ：Gig 1が2週間で表示100・クリック5に届いたか確認。届かなければタイトルだけ変える。それまでタイトル・タグ・価格は変えない
+3. Gig 2の設計 → 見本（道東 `04_sample_itinerary/web_hokkaido.html` を流用）→ 公開
+4. 判定：2027-01-04までにどちらかで1件、2027-02-03までに同じお店で3件。届かなければタイトル・1枚目の画像・価格のどれか1つだけ変える
 5. Note記事は後回し
-
-作業ルールの追加：提案・決定のときは、毎回その分野に最適な専門家役のサブエージェントにレビューさせ、反映してから出す（ユーザー指示 2026-11-07）
+6. 週1振り返りの自動通知はクラウドのセッション向けの設定のまま（ローカルで使うなら作り直す）
 
 ## 会話ログ
-会話の全文（テキストのみ）は、個人情報を含むためリポジトリには入れていない。ユーザーに別途ファイルで渡した `conversation_full.md` を参照する。
+会話の全文（テキストのみ）は、個人情報を含むためリポジトリには入れていない。ユーザーが持っている `~/Documents/conversation_full.md` を参照する（11/7まで）。
