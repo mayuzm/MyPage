@@ -74,8 +74,8 @@ Basic includes 1 revision, Standard and Premium include 2, within the same trip.
 Ideally 4 weeks or more before your trip, since delivery takes 10 to 21 days. If it's sooner, message me first. I reply within 24 hours, usually at lunchtime or in the evening (Japan time).
 
 ## Requirements（購入後に聞く項目）
-1. Your travel dates, where you arrive in and leave Hokkaido (airport or city), and flight times if you know them.（必須）
-2. What you most want to see or do (snow scenery, wildlife, onsen, photography, food...), and any must-see places.（必須）
-3. Who's traveling (number of people, ages, anyone who can't walk far), the pace you like, and the kind of stay you prefer (city hotel, onsen ryokan or either).（必須）
-4. Car, train or open to either? If a car: your snow-driving experience, and whether you'll have an International Driving Permit or official translation.（必須）
-5. Anything already booked (flights, hotels, tours), and anything else I should know.（任意）
+1. Your travel dates (or month and number of days if not fixed yet), where you arrive in and leave Hokkaido (airport or city), and flight times if you know them.（必須）
+2. What you most want to see or do (snow scenery, wildlife, onsen, photos, food...) and any must-see places. Want ski days? Tell me how many, ski or snowboard, your level, any resorts in mind, and whether you'll rent gear or bring your own.（必須）
+3. Who's traveling (number of people, kids' ages, anyone who can't walk far or handle cold well), your pace (relaxed or packed), and where you like to stay (city hotel, onsen ryokan or either).（必須）
+4. Car, train or open to either? If a car: which country issued your license, and your experience driving on snow and ice. Not sure yet? Just say so and I'll suggest what fits each leg.（必須）
+5. Anything already booked (flights, hotels, tours, ski passes) and anything else I should know. No need to share booking numbers or passport details.（任意）
