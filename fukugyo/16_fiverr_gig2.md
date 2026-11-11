@@ -28,7 +28,7 @@ Dec to Mar trips for snow, onsen, wildlife, photos, and ski days too.
 
 Driving is always your call. I don't book anything or pick hotels, cars or tours.
 
-Only have dates and ideas? Perfect. Have a plan already? See my review gig.
+Only have dates and ideas? Perfect. Have a plan already? See my itinerary review gig.
 
 ## Packages（スタート価格。レビュー5件で約2割上げる）
 | | Basic | Standard | Premium |
@@ -65,7 +65,7 @@ No. I tell you which areas to stay in, what to book and by when. You book everyt
 Japan revises many train and bus schedules in mid-March. For trips after that, I plan with the current timetable and mark the times to recheck once the new one is out.
 
 **Can you include Tokyo or other regions?**
-This service is for Hokkaido. If your trip also covers other areas, message me first, or use my itinerary review gig for the rest of your plan.
+This service is for Hokkaido. If your trip also covers other areas, message me first, or use my Japan itinerary review gig (on my profile) for the rest of your plan.
 
 **How do revisions work?**
 Basic includes 1 revision, Standard and Premium include 2, within the same trip. New dates or extra days count as a new order.
