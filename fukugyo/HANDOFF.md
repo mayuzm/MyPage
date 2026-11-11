@@ -44,7 +44,7 @@
 - **Gig 2（2026-11-11 公開）**：「I will plan your Hokkaido winter itinerary from scratch, by rental car or train」 https://www.fiverr.com/wander_japan/plan-a-hokkaido-winter-itinerary-around-snow-onsen-and-quiet-nature
   - 冬の北海道の行程を一から作る。区間ごとに車・電車・組み合わせを勧める。スキーの日も段取りまで扱う。$85/$165/$250（3/6/10日）、納期10/14/21日、PDF納品、注文上限1件
   - 正本：設計 `15_gig2_design.md`、出品文 `16_fiverr_gig2.md`、見本 `04_sample_itinerary/hokkaido_winter_sample_en.pdf`（Fiverrの上限2MBに合わせ写真だけ縮小、1.36MB）、画像 `05_thumbnails/fv3_*.png`（写真は本人撮影 `photos/w_*.jpg`）
-- **11/11の数字**：Gig 1 表示2・クリック1（0ではないのでサポート問い合わせは不要）
+- **11/11の数字**：Fiverr Gig 1 表示2・クリック1（0ではないのでサポート問い合わせは不要）／ココナラ 過去30日 閲覧18・お気に入り2・販売0、取引中0件
 
 ### 同時受注のルール
 - 同時に受けるのは1件まで。Fiverrで注文→ココナラを受付停止（再開はFiverrの注文完了後）。ココナラで注文→48時間以内に最初の連絡、FiverrはAvailability（不在設定）
