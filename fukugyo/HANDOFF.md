@@ -41,7 +41,7 @@
   - 作業手順と納品ひな形：`14_gig1_workflow.md`、`04_sample_itinerary/review_template_en.html`
   - 注文上限1件。プロフィールの一言紹介「Japan itineraries, built or checked in Japanese」、自己紹介はGig 1・2共通
 - **旧Gig**：「custom japan itinerary」は削除、「AI行程の修正」は一時停止（予備）、「北海道の冬」は一時停止（Gig 2に書き換える）。新規出品者のGig上限は4件で、一時停止も数に入る
-- **Gig 2（未作成）**：北海道・離島・自然の行程を一から作る高単価（$90〜260）。11月下旬〜12月上旬に「北海道の冬」Gigを書き換えて公開。英語化より先に中身の設計から
+- **Gig 2（準備完了・未公開）**：冬の北海道の行程を一から作る。区間ごとに車・電車・組み合わせを勧める。スキーの日も段取りまで扱う。$85/$165/$250（3/6/10日）、納期10/14/21日、PDF納品。設計 `15_gig2_design.md`、出品文 `16_fiverr_gig2.md`、見本 `04_sample_itinerary/hokkaido_winter_sample_en.pdf`、画像 `05_thumbnails/fv3_*.png`（写真は本人撮影 `photos/w_*.jpg`）。一時停止中の「北海道の冬」Gigを書き換えて公開する
 
 ### 同時受注のルール
 - 同時に受けるのは1件まで。Fiverrで注文→ココナラを受付停止（再開はFiverrの注文完了後）。ココナラで注文→48時間以内に最初の連絡、FiverrはAvailability（不在設定）
