@@ -1,4 +1,4 @@
-# 副業 引き継ぎメモ（最新：2026-11-08）
+# 副業 引き継ぎメモ（最新：2026-11-11）
 
 新しいセッションは、最初にこのファイルを読むこと。ここが全体像の正本（`00_README.md` は11/7時点の古い情報を含む）。
 
@@ -26,7 +26,7 @@
 2. ココナラに出品（11/5）→ 外部ツール（Googleフォーム）を理由に一度取り下げ（11/7）→ 幹事さんとのやり取りだけの形で再出品
 3. Fiverr：方針を見直し（11/7〜8）、Gigを2本に分けることに決定（`10_fiverr_strategy.md`）。Gig 1を11/8に公開
 
-## 現在地（2026-11-08）
+## 現在地（2026-11-11）
 ### ココナラ（日本語・国内のグループ旅行）
 - 公開中 https://coconala.com/services/4489293 （2,500円・モニター先着3件・納期7日・受付枠1）。レビュー0件・受注0件
 - 出品文 `02_coconala_listing.md`／`02c_service_text_readable.txt`、プロフィール `01_profile.md`、幹事さんへの質問 `03_hearing_sheet.md`、メッセージテンプレ `06_message_templates.md`、画像 `05_thumbnails/cc_*.png`
@@ -40,8 +40,11 @@
   - 英語の定型文8種はFiverrに登録済み（`13_fiverr_message_templates.md`）。15日以上の旅行は$130＋1日$9、21日まで
   - 作業手順と納品ひな形：`14_gig1_workflow.md`、`04_sample_itinerary/review_template_en.html`
   - 注文上限1件。プロフィールの一言紹介「Japan itineraries, built or checked in Japanese」、自己紹介はGig 1・2共通
-- **旧Gig**：「custom japan itinerary」は削除、「AI行程の修正」は一時停止（予備）、「北海道の冬」は一時停止（Gig 2に書き換える）。新規出品者のGig上限は4件で、一時停止も数に入る
-- **Gig 2（準備完了・未公開）**：冬の北海道の行程を一から作る。区間ごとに車・電車・組み合わせを勧める。スキーの日も段取りまで扱う。$85/$165/$250（3/6/10日）、納期10/14/21日、PDF納品。設計 `15_gig2_design.md`、出品文 `16_fiverr_gig2.md`、見本 `04_sample_itinerary/hokkaido_winter_sample_en.pdf`、画像 `05_thumbnails/fv3_*.png`（写真は本人撮影 `photos/w_*.jpg`）。一時停止中の「北海道の冬」Gigを書き換えて公開する
+- **旧Gig**：「custom japan itinerary」は削除、「AI行程の修正」は一時停止（予備）、「北海道の冬」はGig 2に書き換えて公開済み（旧画像3枚は `~/Downloads/old_gig_hokkaido_winter/` に保存）。新規出品者のGig上限は4件で、一時停止も数に入る
+- **Gig 2（2026-11-11 公開）**：「I will plan your Hokkaido winter itinerary from scratch, by rental car or train」 https://www.fiverr.com/wander_japan/plan-a-hokkaido-winter-itinerary-around-snow-onsen-and-quiet-nature
+  - 冬の北海道の行程を一から作る。区間ごとに車・電車・組み合わせを勧める。スキーの日も段取りまで扱う。$85/$165/$250（3/6/10日）、納期10/14/21日、PDF納品、注文上限1件
+  - 正本：設計 `15_gig2_design.md`、出品文 `16_fiverr_gig2.md`、見本 `04_sample_itinerary/hokkaido_winter_sample_en.pdf`（Fiverrの上限2MBに合わせ写真だけ縮小、1.36MB）、画像 `05_thumbnails/fv3_*.png`（写真は本人撮影 `photos/w_*.jpg`）
+- **11/11の数字**：Gig 1 表示2・クリック1（0ではないのでサポート問い合わせは不要）
 
 ### 同時受注のルール
 - 同時に受けるのは1件まで。Fiverrで注文→ココナラを受付停止（再開はFiverrの注文完了後）。ココナラで注文→48時間以内に最初の連絡、FiverrはAvailability（不在設定）
@@ -51,7 +54,7 @@
 |---|---|---|
 | 11/9〜11/22 様子見 | Gig 1は触らない。11/11に表示が0のままでないか確認。平日夜にGig 2の中身を設計（誰向け・何を届けるか・価格・見本の形） | 表示0のままならFiverrサポートに問い合わせ |
 | 11/22 確認① | Fiverrとココナラ（閲覧数・お気に入り）の数字を確認。週1回15分の振り返りを開始 | Fiverrは表示100・クリック5。足りない段階で1つだけ変える（下表） |
-| 11/23〜12/14 Gig 2 | 英語の見本・出品文・画像→レビュー→承認→「北海道の冬」Gigを書き換えて公開。目標12/7、遅くとも12/14 | 注文が入ったら注文を優先 |
+| 11/23〜12/14 Gig 2 | 11/11に前倒しで公開済み。11/22以降、Gig 1のFAQ「I don't have an itinerary yet」をGig 2への案内に変える | 注文が入ったら注文を優先 |
 | 12/1〜1/4 受注 | ココナラの公開依頼に週2件まで提案。注文は `14_gig1_workflow.md` どおり対応し、作業時間を記録 | 返信24時間以内。12/20前後は本業と重なるのでFiverrの不在設定で調整。12/27〜1/4はまとまった時間あり |
 | 1/4 確認② | どちらかで1件取れたか | 0件なら一番弱いところを1つだけ変える |
 | 1/5〜2/3 | 同じお店で3件。ココナラは3件目の後に3,500円、Fiverrはレビュー5件で値上げ。初回納品後にNote記事 | — |

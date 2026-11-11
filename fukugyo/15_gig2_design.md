@@ -22,7 +22,7 @@
 
 ## 進み具合（2026-11-11）
 - 見本・出品文（`16_fiverr_gig2.md`）・ギャラリー画像（`05_thumbnails/fv3_*.png`、元データ `fiverr_gig2.html`）はすべて承認済み
-- 残り：旧Gig「北海道の冬」を書き換えて公開（注文上限1件も設定）。Gig 1のFAQ「I don't have an itinerary yet」をGig 2への案内に変えるのは、Gig 1を触らない期間（〜11/22）が終わってから
+- 2026-11-11 公開（注文上限1件）。見本PDFはFiverrの上限2MBに合わせて写真だけ縮小（文章・レイアウト・リンクは同じ）。Gig 1のFAQ「I don't have an itinerary yet」をGig 2への案内に変えるのは、Gig 1を触らない期間（〜11/22）が終わってから
 
 ---
 （以下、検討の経過）

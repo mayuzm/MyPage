@@ -1,6 +1,6 @@
 # ⑯ Fiverr Gig 2（冬の北海道・一から作る）出品文 v2（コピーライター役レビュー反映済み）
 
-一時停止中の旧Gig「plan a hokkaido winter itinerary around snow, onsen and quiet nature」を書き換えて公開する。設計は `15_gig2_design.md`。
+一時停止中の旧Gig「plan a hokkaido winter itinerary around snow, onsen and quiet nature」を書き換えて2026-11-11に公開済み（この内容のとおり入力）。設計は `15_gig2_design.md`。
 
 ## Gig title（"I will" の後・上限80字）
 I will plan your Hokkaido winter itinerary from scratch, by rental car or train
@@ -9,7 +9,7 @@ I will plan your Hokkaido winter itinerary from scratch, by rental car or train
 hokkaido itinerary / hokkaido winter / hokkaido road trip / japan winter trip / hokkaido travel
 
 ## Description（上限1,200字）
-Winter is when Hokkaido is at its most beautiful, and when a plan copied from a summer guide falls apart. Roads close in blizzards, the sun sets as early as 4 pm, rural buses run a few times a day, and jewelry ice and drift ice appear for only a few weeks.
+Winter is when Hokkaido is most beautiful, and when a plan copied from a summer guide falls apart. Roads close in blizzards, the sun sets as early as 4 pm, rural buses run a few times a day, and jewelry ice and drift ice appear for only a few weeks.
 
 I drove around Hokkaido in February: Sounkyo, the Tokachi coast at sunrise, the cranes and wetlands of Kushiro. I'll build your trip from scratch around what works on your dates: which legs need a car, which are easier by train, and when to skip driving.
 
@@ -19,7 +19,7 @@ WHAT YOU GET
 - Sunrise and sunset times, and when to be at each viewpoint
 - Areas to stay in, and why
 - Backup plans for blizzards, closed roads or no ice
-- A booking list with deadlines, and a map link for every stop
+- A booking list with deadlines and a map link per stop
 
 Phone-friendly PDF you can read offline. Sample in the gallery.
 
